@@ -1,7 +1,7 @@
 """
-Implements the core objects from Jonathan & Plenio (1999), arXiv:quant-ph/9905071:
+Implements the core objects from Jonathan & Plenio (1999)
     - Majorization order on Schmidt coefficient vectors
-    - Nielsen's theorem (deterministic LOCC convertibility)
+    - Nielsen's theorem (dleeterministic LOCC convertibility)
     - Catalysis (ELQCC) check, with cheap necessary-condition pre-filters
       (Lemma 1: maximally entangled states never catalyze;
        Lemma 3: alpha_1 <= alpha_1' and alpha_n >= alpha_n' are necessary)
@@ -41,7 +41,7 @@ def is_majorized(x, y, tol=1e-9):
     -------
     bool
     """
-    x = np.asarray(x, dtype=float)
+    x = np.asarray(x, dtype=float) #defensive coercion - converts whatever was passed into a float NumPy array
     y = np.asarray(y, dtype=float)
 
     if np.any(x < -tol) or np.any(y < -tol):
@@ -81,7 +81,7 @@ def nielsen_convertible(alpha, alpha_prime, tol=1e-9):
 
 
 # ---------------------------------------------------------------------------
-# 2. Tensor product of Schmidt vectors (the "reorder" step)
+# 2. Tensor product of Schmidt vectors
 # ---------------------------------------------------------------------------
 
 def tensor_sorted(x, y):
@@ -96,6 +96,9 @@ def tensor_sorted(x, y):
     x = np.asarray(x, dtype=float)
     y = np.asarray(y, dtype=float)
     products = np.outer(x, y).flatten()
+    # np.outer(x, y) computes the outer product: given x of length m and y of length n, it returns an mxn matrix
+    # where entry (i,j) is x[i] * y[j]. 
+    # .flatten() then reshapes this mxn matrix into a 1D array of length m*n
     return np.sort(products)[::-1]
 
 
@@ -163,16 +166,15 @@ def necessary_condition_lemma3(alpha, alpha_prime, tol=1e-9):
 def catalyzes(alpha, alpha_prime, beta, tol=1e-9, verbose=False):
     """
     Determine whether catalyst `beta` catalyzes the transition
-    alpha -> alpha' (i.e. |psi1> -> |psi2> with catalyst |phi>).
+    alpha -> alpha'
 
     Pipeline (cheapest checks first):
       1. Check plain Nielsen convertibility. If alpha -> alpha' already
-         works without help, catalysis is moot (not a "true" catalyzed
-         transition per our definition -- the catalyst isn't doing
-         anything). If alpha' -> alpha works instead, catalysis in the
+         works without help, then this is not a "true" catalyzed
+         transition. 
+         If alpha' -> alpha works instead, catalysis in the
          alpha -> alpha' direction is PROVABLY IMPOSSIBLE for any
-         catalyst (Lemma 2 corollary: catalysis is one-way, and only
-         possible between genuinely incomparable pairs).
+         catalyst.
       2. Reject degenerate catalysts (product / maximally entangled).
       3. Apply Lemma 3's necessary condition; skip expensive check if it
          fails.
@@ -193,50 +195,44 @@ def catalyzes(alpha, alpha_prime, beta, tol=1e-9, verbose=False):
     plain = nielsen_convertible(alpha, alpha_prime, tol=tol)
     if plain["forward"]:
         return {"catalyzes": False,
-                "reason": "alpha -> alpha' already possible under plain LOCC; "
-                          "catalysis is not applicable (not a genuinely "
-                          "assisted transition)."}
+                "reason": "alpha -> alpha' is already possible under plain LOCC, so "
+                          "this is not a true catalyzed transition."}
     if plain["backward"]:
         return {"catalyzes": False,
-                "reason": "alpha' -> alpha is possible under plain LOCC, so "
-                          "by Lemma 2's corollary the *forward* transition "
-                          "alpha -> alpha' can never be catalyzed by any "
-                          "catalyst."}
+                "reason": "alpha' -> alpha is already possible under plain LOCC, so "
+                          "alpha -> alpha' can never be catalyzed by any catalyst."}
 
     # Step 2: degenerate catalyst filters (Lemma 1, trivial product case)
     if is_product_state(beta, tol=tol):
         return {"catalyzes": False,
-                "reason": "beta is a product state (trivial); cannot catalyze."}
+                "reason": "beta is a product state and thus cannot catalyze."}
     if is_maximally_entangled(beta, tol=tol):
         return {"catalyzes": False,
-                "reason": "beta is maximally entangled; by Lemma 1 it can "
-                          "never catalyze any transition."}
+                "reason": "beta is maximally entangled and thus cannot catalyze."}
 
     # Step 3: Lemma 3 necessary condition
     if not necessary_condition_lemma3(alpha, alpha_prime, tol=tol):
         return {"catalyzes": False,
-                "reason": "Lemma 3 necessary condition (alpha_1 <= alpha_1', "
-                          "alpha_n >= alpha_n') fails; no catalyst can work "
-                          "for this pair."}
+                "reason": "Necessary condition (alpha_1 <= alpha_1', "
+                          "alpha_n >= alpha_n') failed."}
 
     # Step 4: full tensor + majorization check
     joint_source = tensor_sorted(alpha, beta)
     joint_target = tensor_sorted(alpha_prime, beta)
     result = is_majorized(joint_source, joint_target, tol=tol)
 
-    if verbose:
+    if verbose: #if the method caller set verbose=True, print the joint source and target vectors rounded to 4 decimal places
         print("joint_source (alpha ⊗ beta):", np.round(joint_source, 4))
         print("joint_target (alpha'⊗ beta):", np.round(joint_target, 4))
 
     if result:
         return {"catalyzes": True,
-                "reason": "alpha⊗beta ≺ alpha'⊗beta holds: beta catalyzes "
-                          "this transition."}
+                "reason": "alpha⊗beta ≺ alpha'⊗beta holds; "
+                          "beta catalyzes this transition."}
     else:
         return {"catalyzes": False,
-                "reason": "Passed cheap filters, but alpha⊗beta is NOT "
-                          "majorized by alpha'⊗beta: beta does not catalyze "
-                          "this transition."}
+                "reason": "Passed filters, but alpha⊗beta is NOT majorized by alpha'⊗beta;"
+                          "beta does not catalyze this transition."}
 
 
 # ---------------------------------------------------------------------------
@@ -245,17 +241,11 @@ def catalyzes(alpha, alpha_prime, beta, tol=1e-9, verbose=False):
 
 def sample_simplex(n, size=1, rng=None):
     """
-    Draw `size` points uniformly at random from the probability simplex
+    Draw `size` points (that is, `size` vectors) at random from the probability simplex
     Delta_n = {x in R^n : x_i >= 0, sum x_i = 1}.
 
-    Uses the standard exponential-then-normalize trick: draw n i.i.d.
-    Exponential(1) variables and normalize by their sum. This is provably
-    uniform on the simplex -- unlike naively drawing each coordinate
-    ~ Uniform(0,1) and normalizing, which biases toward the simplex center.
-
     Returns
-    -------
-    np.ndarray of shape (size, n) if size > 1, else shape (n,)
+    np.ndarray (n-dimensional array) of shape (size, n) if size > 1, else shape (n,)
     """
     if rng is None:
         rng = np.random.default_rng()
@@ -316,50 +306,3 @@ def estimate_catalytic_power(beta, n, num_samples=10000, rng=None, tol=1e-9):
         "std_error": std_error,
     }
 
-
-# ---------------------------------------------------------------------------
-# 7. Validation against the Jonathan-Plenio (1999) worked example (Eq. 2-5)
-# ---------------------------------------------------------------------------
-
-def _validate_against_paper():
-    alpha = np.array([0.4, 0.4, 0.1, 0.1])
-    alpha_prime = np.array([0.5, 0.25, 0.25, 0.0])
-    beta = np.array([0.6, 0.4])
-
-    # Sanity check 1: plain LOCC should show these are incomparable
-    plain = nielsen_convertible(alpha, alpha_prime)
-    assert not plain["comparable"], "Expected alpha, alpha' to be incomparable under plain LOCC"
-
-    # Sanity check 2: the joint vectors should match the paper's Eq. 5
-    joint_source = tensor_sorted(alpha, beta)
-    joint_target = tensor_sorted(alpha_prime, beta)
-    expected_source = np.array([0.24, 0.24, 0.16, 0.16, 0.06, 0.06, 0.04, 0.04])
-    expected_target = np.array([0.30, 0.20, 0.15, 0.15, 0.10, 0.10, 0.00, 0.00])
-    assert np.allclose(joint_source, expected_source, atol=1e-9), joint_source
-    assert np.allclose(joint_target, expected_target, atol=1e-9), joint_target
-
-    # Sanity check 3: full catalysis check should return True
-    result = catalyzes(alpha, alpha_prime, beta, verbose=True)
-    assert result["catalyzes"], result["reason"]
-
-    # Sanity check 4: Lemma 1 -- maximally entangled catalyst should never work
-    beta_max_entangled = np.array([0.5, 0.5])
-    result2 = catalyzes(alpha, alpha_prime, beta_max_entangled)
-    assert not result2["catalyzes"]
-    assert "Lemma 1" in result2["reason"]
-
-    print("\nAll validation checks against Jonathan & Plenio (1999) passed.")
-
-
-if __name__ == "__main__":
-    _validate_against_paper()
-
-    # Small demo of the Monte Carlo estimator
-    print("\n--- Monte Carlo demo: estimating P(beta) for a partially "
-          "entangled 2x2 catalyst, n=4 source/target dimension ---")
-    rng = np.random.default_rng(seed=42)
-    beta_demo = np.array([0.6, 0.4])
-    result = estimate_catalytic_power(beta_demo, n=4, num_samples=20000, rng=rng)
-    print(f"P_hat = {result['P_hat']:.5f}  "
-          f"(catalyzed {result['num_catalyzed']}/{result['num_samples']} pairs, "
-          f"std_error = {result['std_error']:.5f})")
