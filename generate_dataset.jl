@@ -14,8 +14,8 @@ end
 
 
 d = 4
-n_samples = 1000
+n_samples = 10000
 
 dataset = generate_simplex_dataset(d, n_samples)
 
-@save "simplex_dataset.jld2" dataset
+@save "simplex_dataset_big.jld2" dataset
