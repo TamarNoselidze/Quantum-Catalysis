@@ -22,7 +22,7 @@ function is_locc_convertible(x, y; tol=1e-9)
     # Checks LOCC convertibility between two Schmidt vectors in both directions.
 
     fwd = is_majorized(x, y, tol=tol)
-    bwd = is_majorized(x, y, tol=tol)
+    bwd = is_majorized(y, x, tol=tol)
 
     # return (forward=fwd, backward=bwd, comparable=fwd || bwd)  # could be useful later, for now we just wanna know if converstion is possible
     return fwd || bwd
