@@ -1,7 +1,7 @@
 using JLD2
 
 include("helper.jl")
-@load "simplex_dataset.jld2" dataset
+@load "simplex_dataset_big.jld2" dataset
 
 
 
@@ -27,21 +27,17 @@ function run_catalysis_simulation(dataset, catalyst)
     n_samples = size(dataset, 2)
 
     for i in 1:n_samples
-        # @views points to the data without copying it 
-        x = @views dataset[:, i]
-        
-        for j in 1:n_samples
-            if i != j
-                y = @views dataset[:, j]
-                
-                if !is_locc_convertible(x, y) 
-                    plain_locc_impossible_count += 1
-                    
-                    if is_catalysis_possible(x, y, catalyst)
-                        catalysis_possible_count += 1
-                    end
-                    
-                end 
+        for j in (i + 1):n_samples  
+            x = @views dataset[:, i]
+            y = @views dataset[:, j]
+
+            if !is_locc_convertible(x, y) 
+                plain_locc_impossible_count += 1
+                        
+                if is_catalysis_possible(x, y, catalyst)
+                    catalysis_possible_count += 1
+                end
+                        
             end 
         end 
     end 
