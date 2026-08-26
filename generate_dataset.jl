@@ -14,7 +14,7 @@ end
 
 
 d = 4
-n_samples = 10000
+n_samples = 1000
 
 dataset = generate_simplex_dataset(d, n_samples)
 
