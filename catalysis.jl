@@ -1,6 +1,6 @@
 using JLD2
 
-include("helper.jl")
+include("helper_functions.jl")
 @load "simplex_dataset_big.jld2" dataset
 
 
@@ -23,18 +23,20 @@ function run_catalysis_simulation(dataset, catalyst)
     catalysis_possible_count = 0
 
 
-
-    n_samples = size(dataset, 2)
+    n_samples = size(dataset, 2) # returns size of dimension 2 of the dataset matrix, i.e., number of columns (sampled states)
 
     for i in 1:n_samples
-        for j in (i + 1):n_samples  
-            x = @views dataset[:, i]
+        for j in (i + 1):n_samples  # Nested loop over all unique unordered pairs, i < j only
+            
+            # @views avoids creating an array copy of column i of dataset; it creates a lightweight reference into the matrix instead
+            x = @views dataset[:, i]    # 'view all row indices from column i of dataset'
             y = @views dataset[:, j]
 
             if !is_locc_convertible(x, y) 
                 plain_locc_impossible_count += 1
-                        
-                if is_catalysis_possible(x, y, catalyst)
+
+                # testing for catalysis in both directions        
+                if is_catalysis_possible(x, y, catalyst) || is_catalysis_possible(y, x, catalyst)
                     catalysis_possible_count += 1
                 end
                         
@@ -42,8 +44,8 @@ function run_catalysis_simulation(dataset, catalyst)
         end 
     end 
 
-    println("Plain LOCC impossible: ", plain_locc_impossible_count)
-    println("Catalysis helped: ", catalysis_possible_count)
+    println("Pairs with impossible plain LOCC conversion: ", plain_locc_impossible_count)
+    println("Pairs with conversion enabled by catalyst: ", catalysis_possible_count)
 end
 
 
@@ -51,8 +53,8 @@ end
 
 
 
-function plot_distance_histogram(dataset; num_bins=10)
-    d, n_samples = size(dataset)
+function plot_distance_histogram(dataset; num_bins=10, tol=0.05)
+    d, n_samples = size(dataset)     # d takes first dimensions (rows), n_samples takes second (columns)
 
     # maximally entangled state / center
     center = fill(1.0 / d, d)
@@ -61,17 +63,27 @@ function plot_distance_histogram(dataset; num_bins=10)
     sq_distances = Float64[]
     for i in 1:n_samples
         state = @views dataset[:, i]
-        # sum(abs2, ...) for the squared Euclidean distance
-        sq_dist = sum(abs2, state .- center) 
-        push!(sq_distances, sq_dist)
+        # sum(abs2, ...) for the squared Euclidean distances from each sampled point to the simplex's center
+        sq_dist = sum(abs2, state .- center)
+        push!(sq_distances, sq_dist)  # Add sq_dist to the end of the sq_distances array.
+    end
+
+    empirical_mean = sum(sq_distances) / n_samples
+    theoretical_mean = (d - 1) / (d * (d + 1))   # Standard variance formula for a symmetric Dirichlet(1,...,1) distribution
+
+    
+    println("Theoretical Mean Sq Distance: ", round(theoretical_mean, digits=4))
+    println("Empirical Mean Sq Distance: ", round(empirical_mean, digits=4))
+
+    #Sanity check: relative difference between empirical and theoretical mean
+    rel_diff = abs(empirical_mean - theoretical_mean) / theoretical_mean
+    if rel_diff < tol
+        println("Sampling looks uniform on the simplex.")
+    else
+        println("Sanity check for sampling uniformity failed.")
     end
 
 
-    empirical_mean = sum(sq_distances) / n_samples
-    theoretical_mean = (d - 1) / (d * (d + 1))
-
-    println("Theoretical Mean Sq Distance: ", round(theoretical_mean, digits=4))
-    println("Empirical Mean Sq Distance: ", round(empirical_mean, digits=4))
 
 
     min_dist = minimum(sq_distances)
