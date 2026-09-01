@@ -29,7 +29,12 @@ function run_dimension_analysis(dims, n_pairs, catalyst; n_population=2000, tol=
         end
 
         relative_volume_comparable = comparable_count / n_pairs
-        catalysis_rate = incomparable_count > 0 ? catalysis_possible_count / incomparable_count : NaN
+        
+        if incomparable_count > 0
+            catalysis_rate = catalysis_possible_count / incomparable_count
+        else
+            catalysis_rate = NaN
+        end
 
         rep_state = @views x_side[:, 1]   # example state for cone-size estimate
         fwd_frac, bwd_frac = locc_cone_fractions(rep_state, population; tol=tol)
