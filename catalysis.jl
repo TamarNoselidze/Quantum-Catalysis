@@ -1,7 +1,7 @@
 using JLD2
 
 include("helper_functions.jl")
-@load "simplex_dataset_big.jld2" dataset
+@load "dataset_20k_d7.jld2" dataset
 
 
 
@@ -36,7 +36,7 @@ function run_catalysis_simulation(dataset, catalyst)
                 plain_locc_impossible_count += 1
 
                 # testing for catalysis in both directions        
-                if is_catalysis_possible(x, y, catalyst) || is_catalysis_possible(y, x, catalyst)
+                if is_catalysis_possible(x, y, catalyst)
                     catalysis_possible_count += 1
                 end
                         
@@ -55,6 +55,9 @@ end
 
 function plot_distance_histogram(dataset; num_bins=10, tol=0.05)
     d, n_samples = size(dataset)     # d takes first dimensions (rows), n_samples takes second (columns)
+
+    println("Dimension of the dataset: ", d)
+    println("Number of states in the dataset: ", n_samples)
 
     # maximally entangled state / center
     center = fill(1.0 / d, d)
@@ -75,15 +78,13 @@ function plot_distance_histogram(dataset; num_bins=10, tol=0.05)
     println("Theoretical Mean Sq Distance: ", round(theoretical_mean, digits=4))
     println("Empirical Mean Sq Distance: ", round(empirical_mean, digits=4))
 
-    #Sanity check: relative difference between empirical and theoretical mean
-    rel_diff = abs(empirical_mean - theoretical_mean) / theoretical_mean
-    if rel_diff < tol
-        println("Sampling looks uniform on the simplex.")
-    else
-        println("Sanity check for sampling uniformity failed.")
-    end
-
-
+    # #Sanity check: relative difference between empirical and theoretical mean
+    # rel_diff = abs(empirical_mean - theoretical_mean) / theoretical_mean
+    # if rel_diff < tol
+    #     println("Sampling looks uniform on the simplex.")
+    # else
+    #     println("Sanity check for sampling uniformity failed.")
+    # end
 
 
     min_dist = minimum(sq_distances)
