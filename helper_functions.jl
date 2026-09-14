@@ -138,3 +138,73 @@ function locc_cone_fractions(x, population; tol=1e-9)
 
     return forward_count / n_pop, backward_count / n_pop
 end
+
+
+
+
+
+
+
+
+
+
+
+function plot_distance_histogram(dataset; num_bins=10, tol=0.05)
+    d, n_samples = size(dataset)     # d takes first dimensions (rows), n_samples takes second (columns)
+
+    println("Dimension of the dataset: ", d)
+    println("Number of states in the dataset: ", n_samples)
+
+    # maximally entangled state / center
+    center = fill(1.0 / d, d)
+
+    # squared distances for all samples
+    sq_distances = Float64[]
+    for i in 1:n_samples
+        state = @views dataset[:, i]
+        # sum(abs2, ...) for the squared Euclidean distances from each sampled point to the simplex's center
+        sq_dist = sum(abs2, state .- center)
+        push!(sq_distances, sq_dist)  # Add sq_dist to the end of the sq_distances array.
+    end
+
+    empirical_mean = sum(sq_distances) / n_samples
+    theoretical_mean = (d - 1) / (d * (d + 1))   # Standard variance formula for a symmetric Dirichlet(1,...,1) distribution
+
+    
+    println("Theoretical Mean Sq Distance: ", round(theoretical_mean, digits=4))
+    println("Empirical Mean Sq Distance: ", round(empirical_mean, digits=4))
+
+    # #Sanity check: relative difference between empirical and theoretical mean
+    # rel_diff = abs(empirical_mean - theoretical_mean) / theoretical_mean
+    # if rel_diff < tol
+    #     println("Sampling looks uniform on the simplex.")
+    # else
+    #     println("Sanity check for sampling uniformity failed.")
+    # end
+
+
+    min_dist = minimum(sq_distances)
+    max_dist = maximum(sq_distances)
+    bin_width = (max_dist - min_dist) / num_bins
+    bins = zeros(Int, num_bins)
+    for dist in sq_distances
+        bin_idx = floor(Int, (dist - min_dist) / bin_width) + 1
+
+        if bin_idx > num_bins
+            bin_idx = num_bins
+        end
+        bins[bin_idx] += 1
+    end
+
+    println("SQUARED DISTANCE HISTOGRAM")
+    for i in 1:num_bins
+        bin_start = round(min_dist + (i - 1) * bin_width, digits=3)
+        bin_end = round(min_dist + i * bin_width, digits=3)
+        count = bins[i]
+        bar_length = round(Int, (count / maximum(bins)) * 40)
+        bar = repeat("=", bar_length)
+
+        println("[$bin_start to $bin_end]: $count \t | $bar")
+    end
+end
+
