@@ -36,6 +36,7 @@ end
 function sample_catalysts(step=0.01, dimension=2)
     catalysts = Vector{Float64}[]
     for p in 0.5:step:1.0
+    # for p in 0.6:step:0.67
         catalyst = [round(p, digits=4), round(1 - p, digits=4)]
         push!(catalysts, catalyst)
     end 
@@ -66,9 +67,7 @@ function plot_catalysis_results(results_dict, dim, total_pairs)
 end
 
 
-function single_dataset_analysis(d)
-    @load "dataset_40k_d$d.jld2" dataset
-
+function single_dataset_analysis(d, dataset)
     dataset_l = dataset[:, 1:20000] 
     dataset_r = dataset[:, 20001:40000]
     catalysts = sample_catalysts()
@@ -107,13 +106,61 @@ end
 
 
 
+function analyze_single_transformation(dataset)
+    dataset_l = dataset[:, 1:20000] 
+    dataset_r = dataset[:, 20001:40000]
+    catalysts = sample_catalysts()
+
+    n_samples = size(dataset_l, 2)
+
+    found_count = 0 
+    
+    for i in 1:n_samples
+        x = @views dataset_l[:, i]
+        y = @views dataset_r[:, i]
+        
+        # find a transformation that is impossible by plain LOCC
+        if !is_locc_convertible(x, y)
+            
+            working_p_values = Float64[]
+            
+            # test ALL catalysts on this ONE specific transformation (x, y)
+            for catalyst in catalysts
+                if is_catalysis_possible(x, y, catalyst)
+                    push!(working_p_values, catalyst[1])
+                end
+            end
+            
+            # if this transformation can be catalyzed, track which p-values worked
+            if !isempty(working_p_values)
+                found_count += 1
+                println("Transformation pair index: $i")
+                println("Total catalysts that worked for this pair: ", length(working_p_values))
+                println("It works for p ranging from $(minimum(working_p_values)) to $(maximum(working_p_values))")
+                println("----------------------------------------------------------------------\n")
+                
+                # stop after a few specific transformations
+                # if found_count >= 3
+                #     break 
+                # end
+            end
+        end
+    end
+end
+
+
+
 if abspath(PROGRAM_FILE) == @__FILE__ 
-    d = 7
-    best_catalyst, best_catalyst_ct, results_dict, total_count = single_dataset_analysis(d)
-    catalyst_ratio = best_catalyst_ct / total_count
+    d = 5
+    @load "./datasets_40k/dataset_40k_d$d.jld2" dataset
+
+    # best_catalyst, best_catalyst_ct, results_dict, total_count = single_dataset_analysis(d, dataset)
+    # catalyst_ratio = best_catalyst_ct / total_count
 
     println("Dimension of the states: $d")
-    println("The best catalyst: $best_catalyst")
-    println("Catalysing ratio: $catalyst_ratio")
+    # println("The best catalyst: $best_catalyst")
+    # println("Catalysing ratio: $catalyst_ratio")
     # plot_catalysis_results(results_dict, d, total_count)
+
+    analyze_single_transformation(dataset)
 end
