@@ -35,7 +35,7 @@ end
 
 function sample_catalysts(step=0.01, dimension=2)
     catalysts = Vector{Float64}[]
-    for p in 0.0:step:1.0
+    for p in 0.5:step:1.0
         catalyst = [round(p, digits=4), round(1 - p, digits=4)]
         push!(catalysts, catalyst)
     end 
@@ -43,42 +43,40 @@ function sample_catalysts(step=0.01, dimension=2)
 end
 
 
-function plot_catalysis_results(results_dict)
-    # Extract tuples of (p_value, count) from the dictionary
-    # cat[1] takes the `p` value from your [p, 1-p] catalyst vector
+function plot_catalysis_results(results_dict, dim, total_pairs)
+    # extract p value from the [p, 1-p] catalyst vector
     data = [(cat[1], count) for (cat, count) in results_dict]
     
-    # Sort the data by the p_value (x-axis) so the plot line connects sequentially!
     sort!(data, by = x -> x[1])
     
-    # Split back into x and y arrays for plotting
+    # split into x and y arrays for plotting
     catalysts_x = [d[1] for d in data]
     success_counts = [d[2] for d in data]
     
     p = plot(catalysts_x, success_counts, 
              xlabel="Catalyst Parameter (p)", 
              ylabel="Enabled Conversions", 
-             title="Catalysis Efficiency vs. Parameter p",
-             linewidth=2, marker=:circle, label="d = 5",
+             title="Catalysis Efficiency vs. Parameter p ($total_pairs total pairs)",
+             linewidth=2, marker=:circle, label="d = $dim",
              legend=:topright)
              
     display(p)
-    savefig(p, "catalysis_curve_d5.png")
-    println("Plot saved as catalysis_curve_d5.png")
+    savefig(p, "catalysis_curve_d$dim.png")
+    println("Plot saved as catalysis_curve_d$dim.png")
 end
 
 
-if abspath(PROGRAM_FILE) == @__FILE__   
-    d = 5
-    @load "dataset_20k_d$d.jld2" dataset
+function single_dataset_analysis(d)
+    @load "dataset_40k_d$d.jld2" dataset
 
-
-    dataset_l = dataset[:, 1:10000] 
-    dataset_r = dataset[:, 10001:20000]
+    dataset_l = dataset[:, 1:20000] 
+    dataset_r = dataset[:, 20001:40000]
     catalysts = sample_catalysts()
 
-
     results_dict = Dict{Vector{Float64}, Int}()
+    total_count = 0
+    best_catalyst = Vector{Float64}
+    best_catalyst_ct = 0
 
     output_file = "output_verbose_d$d.txt"  
     open(output_file, "a") do io                                                                                                                                                      
@@ -94,10 +92,28 @@ if abspath(PROGRAM_FILE) == @__FILE__
             write(io, "--------------------------------------------------------- \n")
 
             results_dict[catalyst] = catalysis_possible_count
+            total_count = plain_locc_impossible_count
 
+            if catalysis_possible_count > best_catalyst_ct
+                best_catalyst_ct = catalysis_possible_count
+                best_catalyst = catalyst
+            end
         end
-
     end
 
-    plot_catalysis_results(results_dict)
+    return best_catalyst, best_catalyst_ct, results_dict, total_count
+
+end
+
+
+
+if abspath(PROGRAM_FILE) == @__FILE__ 
+    d = 7
+    best_catalyst, best_catalyst_ct, results_dict, total_count = single_dataset_analysis(d)
+    catalyst_ratio = best_catalyst_ct / total_count
+
+    println("Dimension of the states: $d")
+    println("The best catalyst: $best_catalyst")
+    println("Catalysing ratio: $catalyst_ratio")
+    # plot_catalysis_results(results_dict, d, total_count)
 end
