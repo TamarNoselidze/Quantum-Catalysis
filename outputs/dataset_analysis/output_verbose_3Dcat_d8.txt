@@ -1,0 +1,3538 @@
+Running a simulation for dataset of states with dimensin 8 
+
+The catalyst: [0.34, 0.33, 0.33] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 9 
+--------------------------------------------------------- 
+The catalyst: [0.34, 0.34, 0.32] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 13 
+--------------------------------------------------------- 
+The catalyst: [0.35, 0.33, 0.32] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 30 
+--------------------------------------------------------- 
+The catalyst: [0.35, 0.34, 0.31] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 44 
+--------------------------------------------------------- 
+The catalyst: [0.35, 0.35, 0.3] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 65 
+--------------------------------------------------------- 
+The catalyst: [0.36, 0.32, 0.32] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 43 
+--------------------------------------------------------- 
+The catalyst: [0.36, 0.33, 0.31] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 68 
+--------------------------------------------------------- 
+The catalyst: [0.36, 0.34, 0.3] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 91 
+--------------------------------------------------------- 
+The catalyst: [0.36, 0.35, 0.29] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 121 
+--------------------------------------------------------- 
+The catalyst: [0.36, 0.36, 0.28] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 156 
+--------------------------------------------------------- 
+The catalyst: [0.37, 0.32, 0.31] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 98 
+--------------------------------------------------------- 
+The catalyst: [0.37, 0.33, 0.3] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 120 
+--------------------------------------------------------- 
+The catalyst: [0.37, 0.34, 0.29] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 162 
+--------------------------------------------------------- 
+The catalyst: [0.37, 0.35, 0.28] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 183 
+--------------------------------------------------------- 
+The catalyst: [0.37, 0.36, 0.27] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 201 
+--------------------------------------------------------- 
+The catalyst: [0.37, 0.37, 0.26] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 225 
+--------------------------------------------------------- 
+The catalyst: [0.38, 0.31, 0.31] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 119 
+--------------------------------------------------------- 
+The catalyst: [0.38, 0.32, 0.3] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 152 
+--------------------------------------------------------- 
+The catalyst: [0.38, 0.33, 0.29] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 191 
+--------------------------------------------------------- 
+The catalyst: [0.38, 0.34, 0.28] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 219 
+--------------------------------------------------------- 
+The catalyst: [0.38, 0.35, 0.27] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 236 
+--------------------------------------------------------- 
+The catalyst: [0.38, 0.36, 0.26] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 257 
+--------------------------------------------------------- 
+The catalyst: [0.38, 0.37, 0.25] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 285 
+--------------------------------------------------------- 
+The catalyst: [0.38, 0.38, 0.24] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 299 
+--------------------------------------------------------- 
+The catalyst: [0.39, 0.31, 0.3] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 170 
+--------------------------------------------------------- 
+The catalyst: [0.39, 0.32, 0.29] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 208 
+--------------------------------------------------------- 
+The catalyst: [0.39, 0.33, 0.28] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 242 
+--------------------------------------------------------- 
+The catalyst: [0.39, 0.34, 0.27] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 271 
+--------------------------------------------------------- 
+The catalyst: [0.39, 0.35, 0.26] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 305 
+--------------------------------------------------------- 
+The catalyst: [0.39, 0.36, 0.25] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 318 
+--------------------------------------------------------- 
+The catalyst: [0.39, 0.37, 0.24] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 331 
+--------------------------------------------------------- 
+The catalyst: [0.39, 0.38, 0.23] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 339 
+--------------------------------------------------------- 
+The catalyst: [0.39, 0.39, 0.22] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 345 
+--------------------------------------------------------- 
+The catalyst: [0.4, 0.3, 0.3] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 194 
+--------------------------------------------------------- 
+The catalyst: [0.4, 0.31, 0.29] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 227 
+--------------------------------------------------------- 
+The catalyst: [0.4, 0.32, 0.28] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 265 
+--------------------------------------------------------- 
+The catalyst: [0.4, 0.33, 0.27] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 311 
+--------------------------------------------------------- 
+The catalyst: [0.4, 0.34, 0.26] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 340 
+--------------------------------------------------------- 
+The catalyst: [0.4, 0.35, 0.25] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 357 
+--------------------------------------------------------- 
+The catalyst: [0.4, 0.36, 0.24] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 365 
+--------------------------------------------------------- 
+The catalyst: [0.4, 0.37, 0.23] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 368 
+--------------------------------------------------------- 
+The catalyst: [0.4, 0.38, 0.22] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 370 
+--------------------------------------------------------- 
+The catalyst: [0.4, 0.39, 0.21] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 379 
+--------------------------------------------------------- 
+The catalyst: [0.4, 0.4, 0.2] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 386 
+--------------------------------------------------------- 
+The catalyst: [0.41, 0.3, 0.29] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 242 
+--------------------------------------------------------- 
+The catalyst: [0.41, 0.31, 0.28] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 286 
+--------------------------------------------------------- 
+The catalyst: [0.41, 0.32, 0.27] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 326 
+--------------------------------------------------------- 
+The catalyst: [0.41, 0.33, 0.26] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 369 
+--------------------------------------------------------- 
+The catalyst: [0.41, 0.34, 0.25] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 394 
+--------------------------------------------------------- 
+The catalyst: [0.41, 0.35, 0.24] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 409 
+--------------------------------------------------------- 
+The catalyst: [0.41, 0.36, 0.23] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 412 
+--------------------------------------------------------- 
+The catalyst: [0.41, 0.37, 0.22] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 403 
+--------------------------------------------------------- 
+The catalyst: [0.41, 0.38, 0.21] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 413 
+--------------------------------------------------------- 
+The catalyst: [0.41, 0.39, 0.2] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 407 
+--------------------------------------------------------- 
+The catalyst: [0.41, 0.4, 0.19] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 406 
+--------------------------------------------------------- 
+The catalyst: [0.41, 0.41, 0.18] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 381 
+--------------------------------------------------------- 
+The catalyst: [0.42, 0.29, 0.29] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 257 
+--------------------------------------------------------- 
+The catalyst: [0.42, 0.3, 0.28] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 291 
+--------------------------------------------------------- 
+The catalyst: [0.42, 0.31, 0.27] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 332 
+--------------------------------------------------------- 
+The catalyst: [0.42, 0.32, 0.26] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 389 
+--------------------------------------------------------- 
+The catalyst: [0.42, 0.33, 0.25] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 427 
+--------------------------------------------------------- 
+The catalyst: [0.42, 0.34, 0.24] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 438 
+--------------------------------------------------------- 
+The catalyst: [0.42, 0.35, 0.23] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 452 
+--------------------------------------------------------- 
+The catalyst: [0.42, 0.36, 0.22] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 457 
+--------------------------------------------------------- 
+The catalyst: [0.42, 0.37, 0.21] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 450 
+--------------------------------------------------------- 
+The catalyst: [0.42, 0.38, 0.2] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 441 
+--------------------------------------------------------- 
+The catalyst: [0.42, 0.39, 0.19] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 434 
+--------------------------------------------------------- 
+The catalyst: [0.42, 0.4, 0.18] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 402 
+--------------------------------------------------------- 
+The catalyst: [0.42, 0.41, 0.17] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 387 
+--------------------------------------------------------- 
+The catalyst: [0.42, 0.42, 0.16] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 372 
+--------------------------------------------------------- 
+The catalyst: [0.43, 0.29, 0.28] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 297 
+--------------------------------------------------------- 
+The catalyst: [0.43, 0.3, 0.27] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 350 
+--------------------------------------------------------- 
+The catalyst: [0.43, 0.31, 0.26] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 396 
+--------------------------------------------------------- 
+The catalyst: [0.43, 0.32, 0.25] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 446 
+--------------------------------------------------------- 
+The catalyst: [0.43, 0.33, 0.24] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 470 
+--------------------------------------------------------- 
+The catalyst: [0.43, 0.34, 0.23] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 481 
+--------------------------------------------------------- 
+The catalyst: [0.43, 0.35, 0.22] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 498 
+--------------------------------------------------------- 
+The catalyst: [0.43, 0.36, 0.21] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 497 
+--------------------------------------------------------- 
+The catalyst: [0.43, 0.37, 0.2] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 497 
+--------------------------------------------------------- 
+The catalyst: [0.43, 0.38, 0.19] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 469 
+--------------------------------------------------------- 
+The catalyst: [0.43, 0.39, 0.18] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 439 
+--------------------------------------------------------- 
+The catalyst: [0.43, 0.4, 0.17] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 412 
+--------------------------------------------------------- 
+The catalyst: [0.43, 0.41, 0.16] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 398 
+--------------------------------------------------------- 
+The catalyst: [0.43, 0.42, 0.15] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 358 
+--------------------------------------------------------- 
+The catalyst: [0.43, 0.43, 0.14] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 322 
+--------------------------------------------------------- 
+The catalyst: [0.44, 0.28, 0.28] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 313 
+--------------------------------------------------------- 
+The catalyst: [0.44, 0.29, 0.27] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 352 
+--------------------------------------------------------- 
+The catalyst: [0.44, 0.3, 0.26] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 400 
+--------------------------------------------------------- 
+The catalyst: [0.44, 0.31, 0.25] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 461 
+--------------------------------------------------------- 
+The catalyst: [0.44, 0.32, 0.24] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 503 
+--------------------------------------------------------- 
+The catalyst: [0.44, 0.33, 0.23] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 517 
+--------------------------------------------------------- 
+The catalyst: [0.44, 0.34, 0.22] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 525 
+--------------------------------------------------------- 
+The catalyst: [0.44, 0.35, 0.21] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 539 
+--------------------------------------------------------- 
+The catalyst: [0.44, 0.36, 0.2] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 539 
+--------------------------------------------------------- 
+The catalyst: [0.44, 0.37, 0.19] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 512 
+--------------------------------------------------------- 
+The catalyst: [0.44, 0.38, 0.18] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 479 
+--------------------------------------------------------- 
+The catalyst: [0.44, 0.39, 0.17] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 448 
+--------------------------------------------------------- 
+The catalyst: [0.44, 0.4, 0.16] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 427 
+--------------------------------------------------------- 
+The catalyst: [0.44, 0.41, 0.15] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 386 
+--------------------------------------------------------- 
+The catalyst: [0.44, 0.42, 0.14] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 342 
+--------------------------------------------------------- 
+The catalyst: [0.44, 0.43, 0.13] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 293 
+--------------------------------------------------------- 
+The catalyst: [0.44, 0.44, 0.12] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 253 
+--------------------------------------------------------- 
+The catalyst: [0.45, 0.28, 0.27] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 353 
+--------------------------------------------------------- 
+The catalyst: [0.45, 0.29, 0.26] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 395 
+--------------------------------------------------------- 
+The catalyst: [0.45, 0.3, 0.25] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 453 
+--------------------------------------------------------- 
+The catalyst: [0.45, 0.31, 0.24] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 511 
+--------------------------------------------------------- 
+The catalyst: [0.45, 0.32, 0.23] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 535 
+--------------------------------------------------------- 
+The catalyst: [0.45, 0.33, 0.22] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 553 
+--------------------------------------------------------- 
+The catalyst: [0.45, 0.34, 0.21] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 570 
+--------------------------------------------------------- 
+The catalyst: [0.45, 0.35, 0.2] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 562 
+--------------------------------------------------------- 
+The catalyst: [0.45, 0.36, 0.19] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 552 
+--------------------------------------------------------- 
+The catalyst: [0.45, 0.37, 0.18] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 525 
+--------------------------------------------------------- 
+The catalyst: [0.45, 0.38, 0.17] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 490 
+--------------------------------------------------------- 
+The catalyst: [0.45, 0.39, 0.16] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 471 
+--------------------------------------------------------- 
+The catalyst: [0.45, 0.4, 0.15] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 415 
+--------------------------------------------------------- 
+The catalyst: [0.45, 0.41, 0.14] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 368 
+--------------------------------------------------------- 
+The catalyst: [0.45, 0.42, 0.13] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 321 
+--------------------------------------------------------- 
+The catalyst: [0.45, 0.43, 0.12] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 272 
+--------------------------------------------------------- 
+The catalyst: [0.45, 0.44, 0.11] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 220 
+--------------------------------------------------------- 
+The catalyst: [0.45, 0.45, 0.1] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 165 
+--------------------------------------------------------- 
+The catalyst: [0.46, 0.27, 0.27] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 350 
+--------------------------------------------------------- 
+The catalyst: [0.46, 0.28, 0.26] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 400 
+--------------------------------------------------------- 
+The catalyst: [0.46, 0.29, 0.25] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 443 
+--------------------------------------------------------- 
+The catalyst: [0.46, 0.3, 0.24] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 499 
+--------------------------------------------------------- 
+The catalyst: [0.46, 0.31, 0.23] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 548 
+--------------------------------------------------------- 
+The catalyst: [0.46, 0.32, 0.22] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 572 
+--------------------------------------------------------- 
+The catalyst: [0.46, 0.33, 0.21] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 590 
+--------------------------------------------------------- 
+The catalyst: [0.46, 0.34, 0.2] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 602 
+--------------------------------------------------------- 
+The catalyst: [0.46, 0.35, 0.19] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 587 
+--------------------------------------------------------- 
+The catalyst: [0.46, 0.36, 0.18] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 563 
+--------------------------------------------------------- 
+The catalyst: [0.46, 0.37, 0.17] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 531 
+--------------------------------------------------------- 
+The catalyst: [0.46, 0.38, 0.16] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 509 
+--------------------------------------------------------- 
+The catalyst: [0.46, 0.39, 0.15] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 460 
+--------------------------------------------------------- 
+The catalyst: [0.46, 0.4, 0.14] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 409 
+--------------------------------------------------------- 
+The catalyst: [0.46, 0.41, 0.13] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 351 
+--------------------------------------------------------- 
+The catalyst: [0.46, 0.42, 0.12] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 297 
+--------------------------------------------------------- 
+The catalyst: [0.46, 0.43, 0.11] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 243 
+--------------------------------------------------------- 
+The catalyst: [0.46, 0.44, 0.1] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 184 
+--------------------------------------------------------- 
+The catalyst: [0.46, 0.45, 0.09] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 127 
+--------------------------------------------------------- 
+The catalyst: [0.46, 0.46, 0.08] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 84 
+--------------------------------------------------------- 
+The catalyst: [0.47, 0.27, 0.26] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 384 
+--------------------------------------------------------- 
+The catalyst: [0.47, 0.28, 0.25] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 431 
+--------------------------------------------------------- 
+The catalyst: [0.47, 0.29, 0.24] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 488 
+--------------------------------------------------------- 
+The catalyst: [0.47, 0.3, 0.23] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 547 
+--------------------------------------------------------- 
+The catalyst: [0.47, 0.31, 0.22] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 577 
+--------------------------------------------------------- 
+The catalyst: [0.47, 0.32, 0.21] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 613 
+--------------------------------------------------------- 
+The catalyst: [0.47, 0.33, 0.2] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 620 
+--------------------------------------------------------- 
+The catalyst: [0.47, 0.34, 0.19] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 621 
+--------------------------------------------------------- 
+The catalyst: [0.47, 0.35, 0.18] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 606 
+--------------------------------------------------------- 
+The catalyst: [0.47, 0.36, 0.17] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 578 
+--------------------------------------------------------- 
+The catalyst: [0.47, 0.37, 0.16] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 544 
+--------------------------------------------------------- 
+The catalyst: [0.47, 0.38, 0.15] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 506 
+--------------------------------------------------------- 
+The catalyst: [0.47, 0.39, 0.14] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 452 
+--------------------------------------------------------- 
+The catalyst: [0.47, 0.4, 0.13] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 396 
+--------------------------------------------------------- 
+The catalyst: [0.47, 0.41, 0.12] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 338 
+--------------------------------------------------------- 
+The catalyst: [0.47, 0.42, 0.11] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 273 
+--------------------------------------------------------- 
+The catalyst: [0.47, 0.43, 0.1] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 206 
+--------------------------------------------------------- 
+The catalyst: [0.47, 0.44, 0.09] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 144 
+--------------------------------------------------------- 
+The catalyst: [0.47, 0.45, 0.08] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 96 
+--------------------------------------------------------- 
+The catalyst: [0.47, 0.46, 0.07] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 49 
+--------------------------------------------------------- 
+The catalyst: [0.47, 0.47, 0.06] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 30 
+--------------------------------------------------------- 
+The catalyst: [0.48, 0.26, 0.26] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 371 
+--------------------------------------------------------- 
+The catalyst: [0.48, 0.27, 0.25] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 414 
+--------------------------------------------------------- 
+The catalyst: [0.48, 0.28, 0.24] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 465 
+--------------------------------------------------------- 
+The catalyst: [0.48, 0.29, 0.23] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 523 
+--------------------------------------------------------- 
+The catalyst: [0.48, 0.3, 0.22] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 583 
+--------------------------------------------------------- 
+The catalyst: [0.48, 0.31, 0.21] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 632 
+--------------------------------------------------------- 
+The catalyst: [0.48, 0.32, 0.2] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 639 
+--------------------------------------------------------- 
+The catalyst: [0.48, 0.33, 0.19] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 651 
+--------------------------------------------------------- 
+The catalyst: [0.48, 0.34, 0.18] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 644 
+--------------------------------------------------------- 
+The catalyst: [0.48, 0.35, 0.17] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 617 
+--------------------------------------------------------- 
+The catalyst: [0.48, 0.36, 0.16] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 581 
+--------------------------------------------------------- 
+The catalyst: [0.48, 0.37, 0.15] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 545 
+--------------------------------------------------------- 
+The catalyst: [0.48, 0.38, 0.14] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 494 
+--------------------------------------------------------- 
+The catalyst: [0.48, 0.39, 0.13] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 441 
+--------------------------------------------------------- 
+The catalyst: [0.48, 0.4, 0.12] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 384 
+--------------------------------------------------------- 
+The catalyst: [0.48, 0.41, 0.11] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 318 
+--------------------------------------------------------- 
+The catalyst: [0.48, 0.42, 0.1] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 243 
+--------------------------------------------------------- 
+The catalyst: [0.48, 0.43, 0.09] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 178 
+--------------------------------------------------------- 
+The catalyst: [0.48, 0.44, 0.08] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 120 
+--------------------------------------------------------- 
+The catalyst: [0.48, 0.45, 0.07] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 61 
+--------------------------------------------------------- 
+The catalyst: [0.48, 0.46, 0.06] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 40 
+--------------------------------------------------------- 
+The catalyst: [0.48, 0.47, 0.05] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 20 
+--------------------------------------------------------- 
+The catalyst: [0.48, 0.48, 0.04] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 8 
+--------------------------------------------------------- 
+The catalyst: [0.49, 0.26, 0.25] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 402 
+--------------------------------------------------------- 
+The catalyst: [0.49, 0.27, 0.24] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 454 
+--------------------------------------------------------- 
+The catalyst: [0.49, 0.28, 0.23] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 510 
+--------------------------------------------------------- 
+The catalyst: [0.49, 0.29, 0.22] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 567 
+--------------------------------------------------------- 
+The catalyst: [0.49, 0.3, 0.21] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 618 
+--------------------------------------------------------- 
+The catalyst: [0.49, 0.31, 0.2] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 663 
+--------------------------------------------------------- 
+The catalyst: [0.49, 0.32, 0.19] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 675 
+--------------------------------------------------------- 
+The catalyst: [0.49, 0.33, 0.18] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 670 
+--------------------------------------------------------- 
+The catalyst: [0.49, 0.34, 0.17] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 646 
+--------------------------------------------------------- 
+The catalyst: [0.49, 0.35, 0.16] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 615 
+--------------------------------------------------------- 
+The catalyst: [0.49, 0.36, 0.15] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 579 
+--------------------------------------------------------- 
+The catalyst: [0.49, 0.37, 0.14] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 529 
+--------------------------------------------------------- 
+The catalyst: [0.49, 0.38, 0.13] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 482 
+--------------------------------------------------------- 
+The catalyst: [0.49, 0.39, 0.12] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 425 
+--------------------------------------------------------- 
+The catalyst: [0.49, 0.4, 0.11] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 365 
+--------------------------------------------------------- 
+The catalyst: [0.49, 0.41, 0.1] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 289 
+--------------------------------------------------------- 
+The catalyst: [0.49, 0.42, 0.09] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 220 
+--------------------------------------------------------- 
+The catalyst: [0.49, 0.43, 0.08] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 150 
+--------------------------------------------------------- 
+The catalyst: [0.49, 0.44, 0.07] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 85 
+--------------------------------------------------------- 
+The catalyst: [0.49, 0.45, 0.06] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 57 
+--------------------------------------------------------- 
+The catalyst: [0.49, 0.46, 0.05] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 28 
+--------------------------------------------------------- 
+The catalyst: [0.49, 0.47, 0.04] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 15 
+--------------------------------------------------------- 
+The catalyst: [0.49, 0.48, 0.03] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 6 
+--------------------------------------------------------- 
+The catalyst: [0.49, 0.49, 0.02] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 0 
+--------------------------------------------------------- 
+The catalyst: [0.5, 0.25, 0.25] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 395 
+--------------------------------------------------------- 
+The catalyst: [0.5, 0.26, 0.24] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 428 
+--------------------------------------------------------- 
+The catalyst: [0.5, 0.27, 0.23] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 477 
+--------------------------------------------------------- 
+The catalyst: [0.5, 0.28, 0.22] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 544 
+--------------------------------------------------------- 
+The catalyst: [0.5, 0.29, 0.21] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 587 
+--------------------------------------------------------- 
+The catalyst: [0.5, 0.3, 0.2] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 646 
+--------------------------------------------------------- 
+The catalyst: [0.5, 0.31, 0.19] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 678 
+--------------------------------------------------------- 
+The catalyst: [0.5, 0.32, 0.18] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 696 
+--------------------------------------------------------- 
+The catalyst: [0.5, 0.33, 0.17] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 682 
+--------------------------------------------------------- 
+The catalyst: [0.5, 0.34, 0.16] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 648 
+--------------------------------------------------------- 
+The catalyst: [0.5, 0.35, 0.15] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 612 
+--------------------------------------------------------- 
+The catalyst: [0.5, 0.36, 0.14] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 574 
+--------------------------------------------------------- 
+The catalyst: [0.5, 0.37, 0.13] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 524 
+--------------------------------------------------------- 
+The catalyst: [0.5, 0.38, 0.12] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 468 
+--------------------------------------------------------- 
+The catalyst: [0.5, 0.39, 0.11] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 405 
+--------------------------------------------------------- 
+The catalyst: [0.5, 0.4, 0.1] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 328 
+--------------------------------------------------------- 
+The catalyst: [0.5, 0.41, 0.09] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 263 
+--------------------------------------------------------- 
+The catalyst: [0.5, 0.42, 0.08] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 192 
+--------------------------------------------------------- 
+The catalyst: [0.5, 0.43, 0.07] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 119 
+--------------------------------------------------------- 
+The catalyst: [0.5, 0.44, 0.06] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 87 
+--------------------------------------------------------- 
+The catalyst: [0.5, 0.45, 0.05] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 50 
+--------------------------------------------------------- 
+The catalyst: [0.5, 0.46, 0.04] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 29 
+--------------------------------------------------------- 
+The catalyst: [0.5, 0.47, 0.03] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 12 
+--------------------------------------------------------- 
+The catalyst: [0.5, 0.48, 0.02] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 5 
+--------------------------------------------------------- 
+The catalyst: [0.5, 0.49, 0.01] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 1 
+--------------------------------------------------------- 
+The catalyst: [0.5, 0.5, 0.0] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 0 
+--------------------------------------------------------- 
+The catalyst: [0.51, 0.25, 0.24] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 414 
+--------------------------------------------------------- 
+The catalyst: [0.51, 0.26, 0.23] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 458 
+--------------------------------------------------------- 
+The catalyst: [0.51, 0.27, 0.22] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 514 
+--------------------------------------------------------- 
+The catalyst: [0.51, 0.28, 0.21] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 575 
+--------------------------------------------------------- 
+The catalyst: [0.51, 0.29, 0.2] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 622 
+--------------------------------------------------------- 
+The catalyst: [0.51, 0.3, 0.19] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 669 
+--------------------------------------------------------- 
+The catalyst: [0.51, 0.31, 0.18] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 687 
+--------------------------------------------------------- 
+The catalyst: [0.51, 0.32, 0.17] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 696 
+--------------------------------------------------------- 
+The catalyst: [0.51, 0.33, 0.16] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 668 
+--------------------------------------------------------- 
+The catalyst: [0.51, 0.34, 0.15] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 643 
+--------------------------------------------------------- 
+The catalyst: [0.51, 0.35, 0.14] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 606 
+--------------------------------------------------------- 
+The catalyst: [0.51, 0.36, 0.13] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 562 
+--------------------------------------------------------- 
+The catalyst: [0.51, 0.37, 0.12] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 497 
+--------------------------------------------------------- 
+The catalyst: [0.51, 0.38, 0.11] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 454 
+--------------------------------------------------------- 
+The catalyst: [0.51, 0.39, 0.1] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 375 
+--------------------------------------------------------- 
+The catalyst: [0.51, 0.4, 0.09] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 303 
+--------------------------------------------------------- 
+The catalyst: [0.51, 0.41, 0.08] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 241 
+--------------------------------------------------------- 
+The catalyst: [0.51, 0.42, 0.07] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 162 
+--------------------------------------------------------- 
+The catalyst: [0.51, 0.43, 0.06] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 118 
+--------------------------------------------------------- 
+The catalyst: [0.51, 0.44, 0.05] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 79 
+--------------------------------------------------------- 
+The catalyst: [0.51, 0.45, 0.04] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 49 
+--------------------------------------------------------- 
+The catalyst: [0.51, 0.46, 0.03] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 24 
+--------------------------------------------------------- 
+The catalyst: [0.51, 0.47, 0.02] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 12 
+--------------------------------------------------------- 
+The catalyst: [0.51, 0.48, 0.01] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 4 
+--------------------------------------------------------- 
+The catalyst: [0.51, 0.49, 0.0] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 11 
+--------------------------------------------------------- 
+The catalyst: [0.52, 0.24, 0.24] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 395 
+--------------------------------------------------------- 
+The catalyst: [0.52, 0.25, 0.23] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 433 
+--------------------------------------------------------- 
+The catalyst: [0.52, 0.26, 0.22] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 484 
+--------------------------------------------------------- 
+The catalyst: [0.52, 0.27, 0.21] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 538 
+--------------------------------------------------------- 
+The catalyst: [0.52, 0.28, 0.2] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 605 
+--------------------------------------------------------- 
+The catalyst: [0.52, 0.29, 0.19] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 649 
+--------------------------------------------------------- 
+The catalyst: [0.52, 0.3, 0.18] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 684 
+--------------------------------------------------------- 
+The catalyst: [0.52, 0.31, 0.17] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 698 
+--------------------------------------------------------- 
+The catalyst: [0.52, 0.32, 0.16] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 693 
+--------------------------------------------------------- 
+The catalyst: [0.52, 0.33, 0.15] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 669 
+--------------------------------------------------------- 
+The catalyst: [0.52, 0.34, 0.14] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 642 
+--------------------------------------------------------- 
+The catalyst: [0.52, 0.35, 0.13] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 599 
+--------------------------------------------------------- 
+The catalyst: [0.52, 0.36, 0.12] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 536 
+--------------------------------------------------------- 
+The catalyst: [0.52, 0.37, 0.11] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 480 
+--------------------------------------------------------- 
+The catalyst: [0.52, 0.38, 0.1] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 412 
+--------------------------------------------------------- 
+The catalyst: [0.52, 0.39, 0.09] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 346 
+--------------------------------------------------------- 
+The catalyst: [0.52, 0.4, 0.08] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 280 
+--------------------------------------------------------- 
+The catalyst: [0.52, 0.41, 0.07] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 209 
+--------------------------------------------------------- 
+The catalyst: [0.52, 0.42, 0.06] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 154 
+--------------------------------------------------------- 
+The catalyst: [0.52, 0.43, 0.05] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 111 
+--------------------------------------------------------- 
+The catalyst: [0.52, 0.44, 0.04] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 73 
+--------------------------------------------------------- 
+The catalyst: [0.52, 0.45, 0.03] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 43 
+--------------------------------------------------------- 
+The catalyst: [0.52, 0.46, 0.02] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 26 
+--------------------------------------------------------- 
+The catalyst: [0.52, 0.47, 0.01] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 7 
+--------------------------------------------------------- 
+The catalyst: [0.52, 0.48, 0.0] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 32 
+--------------------------------------------------------- 
+The catalyst: [0.53, 0.24, 0.23] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 397 
+--------------------------------------------------------- 
+The catalyst: [0.53, 0.25, 0.22] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 454 
+--------------------------------------------------------- 
+The catalyst: [0.53, 0.26, 0.21] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 526 
+--------------------------------------------------------- 
+The catalyst: [0.53, 0.27, 0.2] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 574 
+--------------------------------------------------------- 
+The catalyst: [0.53, 0.28, 0.19] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 627 
+--------------------------------------------------------- 
+The catalyst: [0.53, 0.29, 0.18] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 661 
+--------------------------------------------------------- 
+The catalyst: [0.53, 0.3, 0.17] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 701 
+--------------------------------------------------------- 
+The catalyst: [0.53, 0.31, 0.16] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 691 
+--------------------------------------------------------- 
+The catalyst: [0.53, 0.32, 0.15] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 688 
+--------------------------------------------------------- 
+The catalyst: [0.53, 0.33, 0.14] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 658 
+--------------------------------------------------------- 
+The catalyst: [0.53, 0.34, 0.13] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 626 
+--------------------------------------------------------- 
+The catalyst: [0.53, 0.35, 0.12] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 576 
+--------------------------------------------------------- 
+The catalyst: [0.53, 0.36, 0.11] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 517 
+--------------------------------------------------------- 
+The catalyst: [0.53, 0.37, 0.1] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 443 
+--------------------------------------------------------- 
+The catalyst: [0.53, 0.38, 0.09] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 383 
+--------------------------------------------------------- 
+The catalyst: [0.53, 0.39, 0.08] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 308 
+--------------------------------------------------------- 
+The catalyst: [0.53, 0.4, 0.07] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 251 
+--------------------------------------------------------- 
+The catalyst: [0.53, 0.41, 0.06] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 184 
+--------------------------------------------------------- 
+The catalyst: [0.53, 0.42, 0.05] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 138 
+--------------------------------------------------------- 
+The catalyst: [0.53, 0.43, 0.04] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 102 
+--------------------------------------------------------- 
+The catalyst: [0.53, 0.44, 0.03] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 64 
+--------------------------------------------------------- 
+The catalyst: [0.53, 0.45, 0.02] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 41 
+--------------------------------------------------------- 
+The catalyst: [0.53, 0.46, 0.01] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 24 
+--------------------------------------------------------- 
+The catalyst: [0.53, 0.47, 0.0] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 65 
+--------------------------------------------------------- 
+The catalyst: [0.54, 0.23, 0.23] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 380 
+--------------------------------------------------------- 
+The catalyst: [0.54, 0.24, 0.22] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 417 
+--------------------------------------------------------- 
+The catalyst: [0.54, 0.25, 0.21] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 485 
+--------------------------------------------------------- 
+The catalyst: [0.54, 0.26, 0.2] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 547 
+--------------------------------------------------------- 
+The catalyst: [0.54, 0.27, 0.19] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 603 
+--------------------------------------------------------- 
+The catalyst: [0.54, 0.28, 0.18] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 644 
+--------------------------------------------------------- 
+The catalyst: [0.54, 0.29, 0.17] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 686 
+--------------------------------------------------------- 
+The catalyst: [0.54, 0.3, 0.16] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 712 
+--------------------------------------------------------- 
+The catalyst: [0.54, 0.31, 0.15] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 689 
+--------------------------------------------------------- 
+The catalyst: [0.54, 0.32, 0.14] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 671 
+--------------------------------------------------------- 
+The catalyst: [0.54, 0.33, 0.13] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 648 
+--------------------------------------------------------- 
+The catalyst: [0.54, 0.34, 0.12] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 602 
+--------------------------------------------------------- 
+The catalyst: [0.54, 0.35, 0.11] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 547 
+--------------------------------------------------------- 
+The catalyst: [0.54, 0.36, 0.1] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 476 
+--------------------------------------------------------- 
+The catalyst: [0.54, 0.37, 0.09] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 412 
+--------------------------------------------------------- 
+The catalyst: [0.54, 0.38, 0.08] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 336 
+--------------------------------------------------------- 
+The catalyst: [0.54, 0.39, 0.07] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 279 
+--------------------------------------------------------- 
+The catalyst: [0.54, 0.4, 0.06] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 222 
+--------------------------------------------------------- 
+The catalyst: [0.54, 0.41, 0.05] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 175 
+--------------------------------------------------------- 
+The catalyst: [0.54, 0.42, 0.04] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 126 
+--------------------------------------------------------- 
+The catalyst: [0.54, 0.43, 0.03] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 84 
+--------------------------------------------------------- 
+The catalyst: [0.54, 0.44, 0.02] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 60 
+--------------------------------------------------------- 
+The catalyst: [0.54, 0.45, 0.01] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 36 
+--------------------------------------------------------- 
+The catalyst: [0.54, 0.46, 0.0] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 104 
+--------------------------------------------------------- 
+The catalyst: [0.55, 0.23, 0.22] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 400 
+--------------------------------------------------------- 
+The catalyst: [0.55, 0.24, 0.21] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 443 
+--------------------------------------------------------- 
+The catalyst: [0.55, 0.25, 0.2] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 508 
+--------------------------------------------------------- 
+The catalyst: [0.55, 0.26, 0.19] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 564 
+--------------------------------------------------------- 
+The catalyst: [0.55, 0.27, 0.18] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 624 
+--------------------------------------------------------- 
+The catalyst: [0.55, 0.28, 0.17] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 672 
+--------------------------------------------------------- 
+The catalyst: [0.55, 0.29, 0.16] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 713 
+--------------------------------------------------------- 
+The catalyst: [0.55, 0.3, 0.15] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 704 
+--------------------------------------------------------- 
+The catalyst: [0.55, 0.31, 0.14] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 691 
+--------------------------------------------------------- 
+The catalyst: [0.55, 0.32, 0.13] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 649 
+--------------------------------------------------------- 
+The catalyst: [0.55, 0.33, 0.12] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 629 
+--------------------------------------------------------- 
+The catalyst: [0.55, 0.34, 0.11] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 561 
+--------------------------------------------------------- 
+The catalyst: [0.55, 0.35, 0.1] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 508 
+--------------------------------------------------------- 
+The catalyst: [0.55, 0.36, 0.09] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 442 
+--------------------------------------------------------- 
+The catalyst: [0.55, 0.37, 0.08] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 370 
+--------------------------------------------------------- 
+The catalyst: [0.55, 0.38, 0.07] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 304 
+--------------------------------------------------------- 
+The catalyst: [0.55, 0.39, 0.06] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 243 
+--------------------------------------------------------- 
+The catalyst: [0.55, 0.4, 0.05] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 197 
+--------------------------------------------------------- 
+The catalyst: [0.55, 0.41, 0.04] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 158 
+--------------------------------------------------------- 
+The catalyst: [0.55, 0.42, 0.03] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 109 
+--------------------------------------------------------- 
+The catalyst: [0.55, 0.43, 0.02] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 75 
+--------------------------------------------------------- 
+The catalyst: [0.55, 0.44, 0.01] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 43 
+--------------------------------------------------------- 
+The catalyst: [0.55, 0.45, 0.0] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 157 
+--------------------------------------------------------- 
+The catalyst: [0.56, 0.22, 0.22] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 374 
+--------------------------------------------------------- 
+The catalyst: [0.56, 0.23, 0.21] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 415 
+--------------------------------------------------------- 
+The catalyst: [0.56, 0.24, 0.2] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 469 
+--------------------------------------------------------- 
+The catalyst: [0.56, 0.25, 0.19] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 521 
+--------------------------------------------------------- 
+The catalyst: [0.56, 0.26, 0.18] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 586 
+--------------------------------------------------------- 
+The catalyst: [0.56, 0.27, 0.17] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 653 
+--------------------------------------------------------- 
+The catalyst: [0.56, 0.28, 0.16] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 697 
+--------------------------------------------------------- 
+The catalyst: [0.56, 0.29, 0.15] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 711 
+--------------------------------------------------------- 
+The catalyst: [0.56, 0.3, 0.14] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 697 
+--------------------------------------------------------- 
+The catalyst: [0.56, 0.31, 0.13] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 667 
+--------------------------------------------------------- 
+The catalyst: [0.56, 0.32, 0.12] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 637 
+--------------------------------------------------------- 
+The catalyst: [0.56, 0.33, 0.11] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 581 
+--------------------------------------------------------- 
+The catalyst: [0.56, 0.34, 0.1] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 532 
+--------------------------------------------------------- 
+The catalyst: [0.56, 0.35, 0.09] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 477 
+--------------------------------------------------------- 
+The catalyst: [0.56, 0.36, 0.08] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 398 
+--------------------------------------------------------- 
+The catalyst: [0.56, 0.37, 0.07] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 334 
+--------------------------------------------------------- 
+The catalyst: [0.56, 0.38, 0.06] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 269 
+--------------------------------------------------------- 
+The catalyst: [0.56, 0.39, 0.05] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 219 
+--------------------------------------------------------- 
+The catalyst: [0.56, 0.4, 0.04] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 175 
+--------------------------------------------------------- 
+The catalyst: [0.56, 0.41, 0.03] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 123 
+--------------------------------------------------------- 
+The catalyst: [0.56, 0.42, 0.02] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 92 
+--------------------------------------------------------- 
+The catalyst: [0.56, 0.43, 0.01] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 56 
+--------------------------------------------------------- 
+The catalyst: [0.56, 0.44, 0.0] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 201 
+--------------------------------------------------------- 
+The catalyst: [0.57, 0.22, 0.21] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 370 
+--------------------------------------------------------- 
+The catalyst: [0.57, 0.23, 0.2] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 430 
+--------------------------------------------------------- 
+The catalyst: [0.57, 0.24, 0.19] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 498 
+--------------------------------------------------------- 
+The catalyst: [0.57, 0.25, 0.18] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 549 
+--------------------------------------------------------- 
+The catalyst: [0.57, 0.26, 0.17] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 613 
+--------------------------------------------------------- 
+The catalyst: [0.57, 0.27, 0.16] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 662 
+--------------------------------------------------------- 
+The catalyst: [0.57, 0.28, 0.15] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 700 
+--------------------------------------------------------- 
+The catalyst: [0.57, 0.29, 0.14] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 713 
+--------------------------------------------------------- 
+The catalyst: [0.57, 0.3, 0.13] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 690 
+--------------------------------------------------------- 
+The catalyst: [0.57, 0.31, 0.12] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 657 
+--------------------------------------------------------- 
+The catalyst: [0.57, 0.32, 0.11] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 607 
+--------------------------------------------------------- 
+The catalyst: [0.57, 0.33, 0.1] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 551 
+--------------------------------------------------------- 
+The catalyst: [0.57, 0.34, 0.09] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 496 
+--------------------------------------------------------- 
+The catalyst: [0.57, 0.35, 0.08] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 423 
+--------------------------------------------------------- 
+The catalyst: [0.57, 0.36, 0.07] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 358 
+--------------------------------------------------------- 
+The catalyst: [0.57, 0.37, 0.06] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 292 
+--------------------------------------------------------- 
+The catalyst: [0.57, 0.38, 0.05] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 238 
+--------------------------------------------------------- 
+The catalyst: [0.57, 0.39, 0.04] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 198 
+--------------------------------------------------------- 
+The catalyst: [0.57, 0.4, 0.03] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 141 
+--------------------------------------------------------- 
+The catalyst: [0.57, 0.41, 0.02] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 104 
+--------------------------------------------------------- 
+The catalyst: [0.57, 0.42, 0.01] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 64 
+--------------------------------------------------------- 
+The catalyst: [0.57, 0.43, 0.0] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 242 
+--------------------------------------------------------- 
+The catalyst: [0.58, 0.21, 0.21] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 349 
+--------------------------------------------------------- 
+The catalyst: [0.58, 0.22, 0.2] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 387 
+--------------------------------------------------------- 
+The catalyst: [0.58, 0.23, 0.19] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 453 
+--------------------------------------------------------- 
+The catalyst: [0.58, 0.24, 0.18] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 520 
+--------------------------------------------------------- 
+The catalyst: [0.58, 0.25, 0.17] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 564 
+--------------------------------------------------------- 
+The catalyst: [0.58, 0.26, 0.16] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 626 
+--------------------------------------------------------- 
+The catalyst: [0.58, 0.27, 0.15] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 675 
+--------------------------------------------------------- 
+The catalyst: [0.58, 0.28, 0.14] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 702 
+--------------------------------------------------------- 
+The catalyst: [0.58, 0.29, 0.13] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 707 
+--------------------------------------------------------- 
+The catalyst: [0.58, 0.3, 0.12] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 664 
+--------------------------------------------------------- 
+The catalyst: [0.58, 0.31, 0.11] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 616 
+--------------------------------------------------------- 
+The catalyst: [0.58, 0.32, 0.1] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 572 
+--------------------------------------------------------- 
+The catalyst: [0.58, 0.33, 0.09] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 512 
+--------------------------------------------------------- 
+The catalyst: [0.58, 0.34, 0.08] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 442 
+--------------------------------------------------------- 
+The catalyst: [0.58, 0.35, 0.07] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 375 
+--------------------------------------------------------- 
+The catalyst: [0.58, 0.36, 0.06] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 311 
+--------------------------------------------------------- 
+The catalyst: [0.58, 0.37, 0.05] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 260 
+--------------------------------------------------------- 
+The catalyst: [0.58, 0.38, 0.04] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 214 
+--------------------------------------------------------- 
+The catalyst: [0.58, 0.39, 0.03] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 158 
+--------------------------------------------------------- 
+The catalyst: [0.58, 0.4, 0.02] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 110 
+--------------------------------------------------------- 
+The catalyst: [0.58, 0.41, 0.01] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 70 
+--------------------------------------------------------- 
+The catalyst: [0.58, 0.42, 0.0] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 271 
+--------------------------------------------------------- 
+The catalyst: [0.59, 0.21, 0.2] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 349 
+--------------------------------------------------------- 
+The catalyst: [0.59, 0.22, 0.19] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 409 
+--------------------------------------------------------- 
+The catalyst: [0.59, 0.23, 0.18] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 474 
+--------------------------------------------------------- 
+The catalyst: [0.59, 0.24, 0.17] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 526 
+--------------------------------------------------------- 
+The catalyst: [0.59, 0.25, 0.16] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 591 
+--------------------------------------------------------- 
+The catalyst: [0.59, 0.26, 0.15] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 639 
+--------------------------------------------------------- 
+The catalyst: [0.59, 0.27, 0.14] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 683 
+--------------------------------------------------------- 
+The catalyst: [0.59, 0.28, 0.13] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 701 
+--------------------------------------------------------- 
+The catalyst: [0.59, 0.29, 0.12] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 682 
+--------------------------------------------------------- 
+The catalyst: [0.59, 0.3, 0.11] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 646 
+--------------------------------------------------------- 
+The catalyst: [0.59, 0.31, 0.1] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 595 
+--------------------------------------------------------- 
+The catalyst: [0.59, 0.32, 0.09] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 533 
+--------------------------------------------------------- 
+The catalyst: [0.59, 0.33, 0.08] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 469 
+--------------------------------------------------------- 
+The catalyst: [0.59, 0.34, 0.07] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 391 
+--------------------------------------------------------- 
+The catalyst: [0.59, 0.35, 0.06] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 324 
+--------------------------------------------------------- 
+The catalyst: [0.59, 0.36, 0.05] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 274 
+--------------------------------------------------------- 
+The catalyst: [0.59, 0.37, 0.04] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 227 
+--------------------------------------------------------- 
+The catalyst: [0.59, 0.38, 0.03] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 178 
+--------------------------------------------------------- 
+The catalyst: [0.59, 0.39, 0.02] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 119 
+--------------------------------------------------------- 
+The catalyst: [0.59, 0.4, 0.01] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 74 
+--------------------------------------------------------- 
+The catalyst: [0.59, 0.41, 0.0] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 313 
+--------------------------------------------------------- 
+The catalyst: [0.6, 0.2, 0.2] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 317 
+--------------------------------------------------------- 
+The catalyst: [0.6, 0.21, 0.19] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 355 
+--------------------------------------------------------- 
+The catalyst: [0.6, 0.22, 0.18] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 423 
+--------------------------------------------------------- 
+The catalyst: [0.6, 0.23, 0.17] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 488 
+--------------------------------------------------------- 
+The catalyst: [0.6, 0.24, 0.16] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 546 
+--------------------------------------------------------- 
+The catalyst: [0.6, 0.25, 0.15] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 610 
+--------------------------------------------------------- 
+The catalyst: [0.6, 0.26, 0.14] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 649 
+--------------------------------------------------------- 
+The catalyst: [0.6, 0.27, 0.13] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 680 
+--------------------------------------------------------- 
+The catalyst: [0.6, 0.28, 0.12] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 684 
+--------------------------------------------------------- 
+The catalyst: [0.6, 0.29, 0.11] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 652 
+--------------------------------------------------------- 
+The catalyst: [0.6, 0.3, 0.1] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 607 
+--------------------------------------------------------- 
+The catalyst: [0.6, 0.31, 0.09] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 547 
+--------------------------------------------------------- 
+The catalyst: [0.6, 0.32, 0.08] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 480 
+--------------------------------------------------------- 
+The catalyst: [0.6, 0.33, 0.07] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 416 
+--------------------------------------------------------- 
+The catalyst: [0.6, 0.34, 0.06] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 348 
+--------------------------------------------------------- 
+The catalyst: [0.6, 0.35, 0.05] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 286 
+--------------------------------------------------------- 
+The catalyst: [0.6, 0.36, 0.04] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 240 
+--------------------------------------------------------- 
+The catalyst: [0.6, 0.37, 0.03] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 187 
+--------------------------------------------------------- 
+The catalyst: [0.6, 0.38, 0.02] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 132 
+--------------------------------------------------------- 
+The catalyst: [0.6, 0.39, 0.01] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 74 
+--------------------------------------------------------- 
+The catalyst: [0.6, 0.4, 0.0] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 344 
+--------------------------------------------------------- 
+The catalyst: [0.61, 0.2, 0.19] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 317 
+--------------------------------------------------------- 
+The catalyst: [0.61, 0.21, 0.18] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 369 
+--------------------------------------------------------- 
+The catalyst: [0.61, 0.22, 0.17] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 438 
+--------------------------------------------------------- 
+The catalyst: [0.61, 0.23, 0.16] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 505 
+--------------------------------------------------------- 
+The catalyst: [0.61, 0.24, 0.15] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 561 
+--------------------------------------------------------- 
+The catalyst: [0.61, 0.25, 0.14] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 618 
+--------------------------------------------------------- 
+The catalyst: [0.61, 0.26, 0.13] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 656 
+--------------------------------------------------------- 
+The catalyst: [0.61, 0.27, 0.12] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 674 
+--------------------------------------------------------- 
+The catalyst: [0.61, 0.28, 0.11] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 663 
+--------------------------------------------------------- 
+The catalyst: [0.61, 0.29, 0.1] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 608 
+--------------------------------------------------------- 
+The catalyst: [0.61, 0.3, 0.09] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 572 
+--------------------------------------------------------- 
+The catalyst: [0.61, 0.31, 0.08] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 509 
+--------------------------------------------------------- 
+The catalyst: [0.61, 0.32, 0.07] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 436 
+--------------------------------------------------------- 
+The catalyst: [0.61, 0.33, 0.06] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 372 
+--------------------------------------------------------- 
+The catalyst: [0.61, 0.34, 0.05] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 302 
+--------------------------------------------------------- 
+The catalyst: [0.61, 0.35, 0.04] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 252 
+--------------------------------------------------------- 
+The catalyst: [0.61, 0.36, 0.03] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 197 
+--------------------------------------------------------- 
+The catalyst: [0.61, 0.37, 0.02] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 132 
+--------------------------------------------------------- 
+The catalyst: [0.61, 0.38, 0.01] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 80 
+--------------------------------------------------------- 
+The catalyst: [0.61, 0.39, 0.0] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 375 
+--------------------------------------------------------- 
+The catalyst: [0.62, 0.19, 0.19] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 291 
+--------------------------------------------------------- 
+The catalyst: [0.62, 0.2, 0.18] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 325 
+--------------------------------------------------------- 
+The catalyst: [0.62, 0.21, 0.17] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 395 
+--------------------------------------------------------- 
+The catalyst: [0.62, 0.22, 0.16] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 453 
+--------------------------------------------------------- 
+The catalyst: [0.62, 0.23, 0.15] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 518 
+--------------------------------------------------------- 
+The catalyst: [0.62, 0.24, 0.14] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 575 
+--------------------------------------------------------- 
+The catalyst: [0.62, 0.25, 0.13] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 618 
+--------------------------------------------------------- 
+The catalyst: [0.62, 0.26, 0.12] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 660 
+--------------------------------------------------------- 
+The catalyst: [0.62, 0.27, 0.11] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 656 
+--------------------------------------------------------- 
+The catalyst: [0.62, 0.28, 0.1] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 611 
+--------------------------------------------------------- 
+The catalyst: [0.62, 0.29, 0.09] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 569 
+--------------------------------------------------------- 
+The catalyst: [0.62, 0.3, 0.08] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 522 
+--------------------------------------------------------- 
+The catalyst: [0.62, 0.31, 0.07] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 460 
+--------------------------------------------------------- 
+The catalyst: [0.62, 0.32, 0.06] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 391 
+--------------------------------------------------------- 
+The catalyst: [0.62, 0.33, 0.05] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 310 
+--------------------------------------------------------- 
+The catalyst: [0.62, 0.34, 0.04] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 272 
+--------------------------------------------------------- 
+The catalyst: [0.62, 0.35, 0.03] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 216 
+--------------------------------------------------------- 
+The catalyst: [0.62, 0.36, 0.02] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 139 
+--------------------------------------------------------- 
+The catalyst: [0.62, 0.37, 0.01] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 83 
+--------------------------------------------------------- 
+The catalyst: [0.62, 0.38, 0.0] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 389 
+--------------------------------------------------------- 
+The catalyst: [0.63, 0.19, 0.18] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 284 
+--------------------------------------------------------- 
+The catalyst: [0.63, 0.2, 0.17] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 343 
+--------------------------------------------------------- 
+The catalyst: [0.63, 0.21, 0.16] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 405 
+--------------------------------------------------------- 
+The catalyst: [0.63, 0.22, 0.15] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 463 
+--------------------------------------------------------- 
+The catalyst: [0.63, 0.23, 0.14] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 536 
+--------------------------------------------------------- 
+The catalyst: [0.63, 0.24, 0.13] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 577 
+--------------------------------------------------------- 
+The catalyst: [0.63, 0.25, 0.12] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 620 
+--------------------------------------------------------- 
+The catalyst: [0.63, 0.26, 0.11] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 657 
+--------------------------------------------------------- 
+The catalyst: [0.63, 0.27, 0.1] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 619 
+--------------------------------------------------------- 
+The catalyst: [0.63, 0.28, 0.09] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 567 
+--------------------------------------------------------- 
+The catalyst: [0.63, 0.29, 0.08] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 525 
+--------------------------------------------------------- 
+The catalyst: [0.63, 0.3, 0.07] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 467 
+--------------------------------------------------------- 
+The catalyst: [0.63, 0.31, 0.06] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 411 
+--------------------------------------------------------- 
+The catalyst: [0.63, 0.32, 0.05] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 329 
+--------------------------------------------------------- 
+The catalyst: [0.63, 0.33, 0.04] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 279 
+--------------------------------------------------------- 
+The catalyst: [0.63, 0.34, 0.03] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 215 
+--------------------------------------------------------- 
+The catalyst: [0.63, 0.35, 0.02] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 152 
+--------------------------------------------------------- 
+The catalyst: [0.63, 0.36, 0.01] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 88 
+--------------------------------------------------------- 
+The catalyst: [0.63, 0.37, 0.0] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 405 
+--------------------------------------------------------- 
+The catalyst: [0.64, 0.18, 0.18] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 251 
+--------------------------------------------------------- 
+The catalyst: [0.64, 0.19, 0.17] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 307 
+--------------------------------------------------------- 
+The catalyst: [0.64, 0.2, 0.16] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 361 
+--------------------------------------------------------- 
+The catalyst: [0.64, 0.21, 0.15] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 422 
+--------------------------------------------------------- 
+The catalyst: [0.64, 0.22, 0.14] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 483 
+--------------------------------------------------------- 
+The catalyst: [0.64, 0.23, 0.13] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 546 
+--------------------------------------------------------- 
+The catalyst: [0.64, 0.24, 0.12] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 580 
+--------------------------------------------------------- 
+The catalyst: [0.64, 0.25, 0.11] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 616 
+--------------------------------------------------------- 
+The catalyst: [0.64, 0.26, 0.1] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 615 
+--------------------------------------------------------- 
+The catalyst: [0.64, 0.27, 0.09] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 575 
+--------------------------------------------------------- 
+The catalyst: [0.64, 0.28, 0.08] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 527 
+--------------------------------------------------------- 
+The catalyst: [0.64, 0.29, 0.07] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 471 
+--------------------------------------------------------- 
+The catalyst: [0.64, 0.3, 0.06] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 411 
+--------------------------------------------------------- 
+The catalyst: [0.64, 0.31, 0.05] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 339 
+--------------------------------------------------------- 
+The catalyst: [0.64, 0.32, 0.04] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 287 
+--------------------------------------------------------- 
+The catalyst: [0.64, 0.33, 0.03] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 232 
+--------------------------------------------------------- 
+The catalyst: [0.64, 0.34, 0.02] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 153 
+--------------------------------------------------------- 
+The catalyst: [0.64, 0.35, 0.01] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 99 
+--------------------------------------------------------- 
+The catalyst: [0.64, 0.36, 0.0] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 429 
+--------------------------------------------------------- 
+The catalyst: [0.65, 0.18, 0.17] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 254 
+--------------------------------------------------------- 
+The catalyst: [0.65, 0.19, 0.16] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 310 
+--------------------------------------------------------- 
+The catalyst: [0.65, 0.2, 0.15] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 368 
+--------------------------------------------------------- 
+The catalyst: [0.65, 0.21, 0.14] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 434 
+--------------------------------------------------------- 
+The catalyst: [0.65, 0.22, 0.13] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 497 
+--------------------------------------------------------- 
+The catalyst: [0.65, 0.23, 0.12] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 548 
+--------------------------------------------------------- 
+The catalyst: [0.65, 0.24, 0.11] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 587 
+--------------------------------------------------------- 
+The catalyst: [0.65, 0.25, 0.1] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 591 
+--------------------------------------------------------- 
+The catalyst: [0.65, 0.26, 0.09] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 567 
+--------------------------------------------------------- 
+The catalyst: [0.65, 0.27, 0.08] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 539 
+--------------------------------------------------------- 
+The catalyst: [0.65, 0.28, 0.07] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 478 
+--------------------------------------------------------- 
+The catalyst: [0.65, 0.29, 0.06] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 412 
+--------------------------------------------------------- 
+The catalyst: [0.65, 0.3, 0.05] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 348 
+--------------------------------------------------------- 
+The catalyst: [0.65, 0.31, 0.04] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 290 
+--------------------------------------------------------- 
+The catalyst: [0.65, 0.32, 0.03] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 242 
+--------------------------------------------------------- 
+The catalyst: [0.65, 0.33, 0.02] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 166 
+--------------------------------------------------------- 
+The catalyst: [0.65, 0.34, 0.01] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 94 
+--------------------------------------------------------- 
+The catalyst: [0.65, 0.35, 0.0] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 433 
+--------------------------------------------------------- 
+The catalyst: [0.66, 0.17, 0.17] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 219 
+--------------------------------------------------------- 
+The catalyst: [0.66, 0.18, 0.16] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 271 
+--------------------------------------------------------- 
+The catalyst: [0.66, 0.19, 0.15] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 329 
+--------------------------------------------------------- 
+The catalyst: [0.66, 0.2, 0.14] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 394 
+--------------------------------------------------------- 
+The catalyst: [0.66, 0.21, 0.13] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 457 
+--------------------------------------------------------- 
+The catalyst: [0.66, 0.22, 0.12] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 497 
+--------------------------------------------------------- 
+The catalyst: [0.66, 0.23, 0.11] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 541 
+--------------------------------------------------------- 
+The catalyst: [0.66, 0.24, 0.1] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 581 
+--------------------------------------------------------- 
+The catalyst: [0.66, 0.25, 0.09] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 557 
+--------------------------------------------------------- 
+The catalyst: [0.66, 0.26, 0.08] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 531 
+--------------------------------------------------------- 
+The catalyst: [0.66, 0.27, 0.07] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 503 
+--------------------------------------------------------- 
+The catalyst: [0.66, 0.28, 0.06] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 435 
+--------------------------------------------------------- 
+The catalyst: [0.66, 0.29, 0.05] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 355 
+--------------------------------------------------------- 
+The catalyst: [0.66, 0.3, 0.04] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 296 
+--------------------------------------------------------- 
+The catalyst: [0.66, 0.31, 0.03] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 241 
+--------------------------------------------------------- 
+The catalyst: [0.66, 0.32, 0.02] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 164 
+--------------------------------------------------------- 
+The catalyst: [0.66, 0.33, 0.01] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 95 
+--------------------------------------------------------- 
+The catalyst: [0.66, 0.34, 0.0] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 463 
+--------------------------------------------------------- 
+The catalyst: [0.67, 0.17, 0.16] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 223 
+--------------------------------------------------------- 
+The catalyst: [0.67, 0.18, 0.15] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 279 
+--------------------------------------------------------- 
+The catalyst: [0.67, 0.19, 0.14] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 344 
+--------------------------------------------------------- 
+The catalyst: [0.67, 0.2, 0.13] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 409 
+--------------------------------------------------------- 
+The catalyst: [0.67, 0.21, 0.12] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 460 
+--------------------------------------------------------- 
+The catalyst: [0.67, 0.22, 0.11] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 498 
+--------------------------------------------------------- 
+The catalyst: [0.67, 0.23, 0.1] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 539 
+--------------------------------------------------------- 
+The catalyst: [0.67, 0.24, 0.09] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 549 
+--------------------------------------------------------- 
+The catalyst: [0.67, 0.25, 0.08] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 525 
+--------------------------------------------------------- 
+The catalyst: [0.67, 0.26, 0.07] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 491 
+--------------------------------------------------------- 
+The catalyst: [0.67, 0.27, 0.06] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 434 
+--------------------------------------------------------- 
+The catalyst: [0.67, 0.28, 0.05] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 380 
+--------------------------------------------------------- 
+The catalyst: [0.67, 0.29, 0.04] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 298 
+--------------------------------------------------------- 
+The catalyst: [0.67, 0.3, 0.03] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 236 
+--------------------------------------------------------- 
+The catalyst: [0.67, 0.31, 0.02] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 162 
+--------------------------------------------------------- 
+The catalyst: [0.67, 0.32, 0.01] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 95 
+--------------------------------------------------------- 
+The catalyst: [0.67, 0.33, 0.0] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 470 
+--------------------------------------------------------- 
+The catalyst: [0.68, 0.16, 0.16] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 183 
+--------------------------------------------------------- 
+The catalyst: [0.68, 0.17, 0.15] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 238 
+--------------------------------------------------------- 
+The catalyst: [0.68, 0.18, 0.14] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 301 
+--------------------------------------------------------- 
+The catalyst: [0.68, 0.19, 0.13] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 357 
+--------------------------------------------------------- 
+The catalyst: [0.68, 0.2, 0.12] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 413 
+--------------------------------------------------------- 
+The catalyst: [0.68, 0.21, 0.11] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 449 
+--------------------------------------------------------- 
+The catalyst: [0.68, 0.22, 0.1] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 498 
+--------------------------------------------------------- 
+The catalyst: [0.68, 0.23, 0.09] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 526 
+--------------------------------------------------------- 
+The catalyst: [0.68, 0.24, 0.08] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 517 
+--------------------------------------------------------- 
+The catalyst: [0.68, 0.25, 0.07] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 486 
+--------------------------------------------------------- 
+The catalyst: [0.68, 0.26, 0.06] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 435 
+--------------------------------------------------------- 
+The catalyst: [0.68, 0.27, 0.05] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 370 
+--------------------------------------------------------- 
+The catalyst: [0.68, 0.28, 0.04] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 309 
+--------------------------------------------------------- 
+The catalyst: [0.68, 0.29, 0.03] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 249 
+--------------------------------------------------------- 
+The catalyst: [0.68, 0.3, 0.02] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 155 
+--------------------------------------------------------- 
+The catalyst: [0.68, 0.31, 0.01] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 92 
+--------------------------------------------------------- 
+The catalyst: [0.68, 0.32, 0.0] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 473 
+--------------------------------------------------------- 
+The catalyst: [0.69, 0.16, 0.15] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 182 
+--------------------------------------------------------- 
+The catalyst: [0.69, 0.17, 0.14] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 247 
+--------------------------------------------------------- 
+The catalyst: [0.69, 0.18, 0.13] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 307 
+--------------------------------------------------------- 
+The catalyst: [0.69, 0.19, 0.12] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 372 
+--------------------------------------------------------- 
+The catalyst: [0.69, 0.2, 0.11] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 410 
+--------------------------------------------------------- 
+The catalyst: [0.69, 0.21, 0.1] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 452 
+--------------------------------------------------------- 
+The catalyst: [0.69, 0.22, 0.09] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 491 
+--------------------------------------------------------- 
+The catalyst: [0.69, 0.23, 0.08] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 493 
+--------------------------------------------------------- 
+The catalyst: [0.69, 0.24, 0.07] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 470 
+--------------------------------------------------------- 
+The catalyst: [0.69, 0.25, 0.06] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 438 
+--------------------------------------------------------- 
+The catalyst: [0.69, 0.26, 0.05] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 378 
+--------------------------------------------------------- 
+The catalyst: [0.69, 0.27, 0.04] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 299 
+--------------------------------------------------------- 
+The catalyst: [0.69, 0.28, 0.03] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 245 
+--------------------------------------------------------- 
+The catalyst: [0.69, 0.29, 0.02] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 169 
+--------------------------------------------------------- 
+The catalyst: [0.69, 0.3, 0.01] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 95 
+--------------------------------------------------------- 
+The catalyst: [0.69, 0.31, 0.0] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 458 
+--------------------------------------------------------- 
+The catalyst: [0.7, 0.15, 0.15] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 150 
+--------------------------------------------------------- 
+The catalyst: [0.7, 0.16, 0.14] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 189 
+--------------------------------------------------------- 
+The catalyst: [0.7, 0.17, 0.13] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 257 
+--------------------------------------------------------- 
+The catalyst: [0.7, 0.18, 0.12] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 324 
+--------------------------------------------------------- 
+The catalyst: [0.7, 0.19, 0.11] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 377 
+--------------------------------------------------------- 
+The catalyst: [0.7, 0.2, 0.1] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 407 
+--------------------------------------------------------- 
+The catalyst: [0.7, 0.21, 0.09] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 451 
+--------------------------------------------------------- 
+The catalyst: [0.7, 0.22, 0.08] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 463 
+--------------------------------------------------------- 
+The catalyst: [0.7, 0.23, 0.07] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 459 
+--------------------------------------------------------- 
+The catalyst: [0.7, 0.24, 0.06] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 427 
+--------------------------------------------------------- 
+The catalyst: [0.7, 0.25, 0.05] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 380 
+--------------------------------------------------------- 
+The catalyst: [0.7, 0.26, 0.04] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 299 
+--------------------------------------------------------- 
+The catalyst: [0.7, 0.27, 0.03] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 238 
+--------------------------------------------------------- 
+The catalyst: [0.7, 0.28, 0.02] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 167 
+--------------------------------------------------------- 
+The catalyst: [0.7, 0.29, 0.01] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 97 
+--------------------------------------------------------- 
+The catalyst: [0.7, 0.3, 0.0] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 464 
+--------------------------------------------------------- 
+The catalyst: [0.71, 0.15, 0.14] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 149 
+--------------------------------------------------------- 
+The catalyst: [0.71, 0.16, 0.13] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 207 
+--------------------------------------------------------- 
+The catalyst: [0.71, 0.17, 0.12] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 270 
+--------------------------------------------------------- 
+The catalyst: [0.71, 0.18, 0.11] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 329 
+--------------------------------------------------------- 
+The catalyst: [0.71, 0.19, 0.1] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 374 
+--------------------------------------------------------- 
+The catalyst: [0.71, 0.2, 0.09] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 410 
+--------------------------------------------------------- 
+The catalyst: [0.71, 0.21, 0.08] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 435 
+--------------------------------------------------------- 
+The catalyst: [0.71, 0.22, 0.07] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 431 
+--------------------------------------------------------- 
+The catalyst: [0.71, 0.23, 0.06] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 419 
+--------------------------------------------------------- 
+The catalyst: [0.71, 0.24, 0.05] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 365 
+--------------------------------------------------------- 
+The catalyst: [0.71, 0.25, 0.04] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 299 
+--------------------------------------------------------- 
+The catalyst: [0.71, 0.26, 0.03] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 239 
+--------------------------------------------------------- 
+The catalyst: [0.71, 0.27, 0.02] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 167 
+--------------------------------------------------------- 
+The catalyst: [0.71, 0.28, 0.01] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 96 
+--------------------------------------------------------- 
+The catalyst: [0.71, 0.29, 0.0] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 465 
+--------------------------------------------------------- 
+The catalyst: [0.72, 0.14, 0.14] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 114 
+--------------------------------------------------------- 
+The catalyst: [0.72, 0.15, 0.13] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 157 
+--------------------------------------------------------- 
+The catalyst: [0.72, 0.16, 0.12] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 222 
+--------------------------------------------------------- 
+The catalyst: [0.72, 0.17, 0.11] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 280 
+--------------------------------------------------------- 
+The catalyst: [0.72, 0.18, 0.1] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 331 
+--------------------------------------------------------- 
+The catalyst: [0.72, 0.19, 0.09] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 374 
+--------------------------------------------------------- 
+The catalyst: [0.72, 0.2, 0.08] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 403 
+--------------------------------------------------------- 
+The catalyst: [0.72, 0.21, 0.07] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 402 
+--------------------------------------------------------- 
+The catalyst: [0.72, 0.22, 0.06] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 405 
+--------------------------------------------------------- 
+The catalyst: [0.72, 0.23, 0.05] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 362 
+--------------------------------------------------------- 
+The catalyst: [0.72, 0.24, 0.04] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 293 
+--------------------------------------------------------- 
+The catalyst: [0.72, 0.25, 0.03] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 223 
+--------------------------------------------------------- 
+The catalyst: [0.72, 0.26, 0.02] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 165 
+--------------------------------------------------------- 
+The catalyst: [0.72, 0.27, 0.01] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 88 
+--------------------------------------------------------- 
+The catalyst: [0.72, 0.28, 0.0] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 451 
+--------------------------------------------------------- 
+The catalyst: [0.73, 0.14, 0.13] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 116 
+--------------------------------------------------------- 
+The catalyst: [0.73, 0.15, 0.12] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 177 
+--------------------------------------------------------- 
+The catalyst: [0.73, 0.16, 0.11] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 237 
+--------------------------------------------------------- 
+The catalyst: [0.73, 0.17, 0.1] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 283 
+--------------------------------------------------------- 
+The catalyst: [0.73, 0.18, 0.09] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 322 
+--------------------------------------------------------- 
+The catalyst: [0.73, 0.19, 0.08] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 368 
+--------------------------------------------------------- 
+The catalyst: [0.73, 0.2, 0.07] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 380 
+--------------------------------------------------------- 
+The catalyst: [0.73, 0.21, 0.06] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 379 
+--------------------------------------------------------- 
+The catalyst: [0.73, 0.22, 0.05] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 354 
+--------------------------------------------------------- 
+The catalyst: [0.73, 0.23, 0.04] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 294 
+--------------------------------------------------------- 
+The catalyst: [0.73, 0.24, 0.03] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 224 
+--------------------------------------------------------- 
+The catalyst: [0.73, 0.25, 0.02] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 162 
+--------------------------------------------------------- 
+The catalyst: [0.73, 0.26, 0.01] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 84 
+--------------------------------------------------------- 
+The catalyst: [0.73, 0.27, 0.0] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 439 
+--------------------------------------------------------- 
+The catalyst: [0.74, 0.13, 0.13] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 90 
+--------------------------------------------------------- 
+The catalyst: [0.74, 0.14, 0.12] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 127 
+--------------------------------------------------------- 
+The catalyst: [0.74, 0.15, 0.11] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 188 
+--------------------------------------------------------- 
+The catalyst: [0.74, 0.16, 0.1] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 252 
+--------------------------------------------------------- 
+The catalyst: [0.74, 0.17, 0.09] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 276 
+--------------------------------------------------------- 
+The catalyst: [0.74, 0.18, 0.08] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 324 
+--------------------------------------------------------- 
+The catalyst: [0.74, 0.19, 0.07] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 354 
+--------------------------------------------------------- 
+The catalyst: [0.74, 0.2, 0.06] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 362 
+--------------------------------------------------------- 
+The catalyst: [0.74, 0.21, 0.05] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 342 
+--------------------------------------------------------- 
+The catalyst: [0.74, 0.22, 0.04] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 287 
+--------------------------------------------------------- 
+The catalyst: [0.74, 0.23, 0.03] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 216 
+--------------------------------------------------------- 
+The catalyst: [0.74, 0.24, 0.02] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 164 
+--------------------------------------------------------- 
+The catalyst: [0.74, 0.25, 0.01] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 80 
+--------------------------------------------------------- 
+The catalyst: [0.74, 0.26, 0.0] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 413 
+--------------------------------------------------------- 
+The catalyst: [0.75, 0.13, 0.12] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 87 
+--------------------------------------------------------- 
+The catalyst: [0.75, 0.14, 0.11] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 144 
+--------------------------------------------------------- 
+The catalyst: [0.75, 0.15, 0.1] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 204 
+--------------------------------------------------------- 
+The catalyst: [0.75, 0.16, 0.09] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 246 
+--------------------------------------------------------- 
+The catalyst: [0.75, 0.17, 0.08] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 284 
+--------------------------------------------------------- 
+The catalyst: [0.75, 0.18, 0.07] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 314 
+--------------------------------------------------------- 
+The catalyst: [0.75, 0.19, 0.06] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 336 
+--------------------------------------------------------- 
+The catalyst: [0.75, 0.2, 0.05] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 324 
+--------------------------------------------------------- 
+The catalyst: [0.75, 0.21, 0.04] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 280 
+--------------------------------------------------------- 
+The catalyst: [0.75, 0.22, 0.03] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 211 
+--------------------------------------------------------- 
+The catalyst: [0.75, 0.23, 0.02] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 157 
+--------------------------------------------------------- 
+The catalyst: [0.75, 0.24, 0.01] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 70 
+--------------------------------------------------------- 
+The catalyst: [0.75, 0.25, 0.0] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 392 
+--------------------------------------------------------- 
+The catalyst: [0.76, 0.12, 0.12] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 60 
+--------------------------------------------------------- 
+The catalyst: [0.76, 0.13, 0.11] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 93 
+--------------------------------------------------------- 
+The catalyst: [0.76, 0.14, 0.1] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 158 
+--------------------------------------------------------- 
+The catalyst: [0.76, 0.15, 0.09] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 211 
+--------------------------------------------------------- 
+The catalyst: [0.76, 0.16, 0.08] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 241 
+--------------------------------------------------------- 
+The catalyst: [0.76, 0.17, 0.07] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 278 
+--------------------------------------------------------- 
+The catalyst: [0.76, 0.18, 0.06] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 299 
+--------------------------------------------------------- 
+The catalyst: [0.76, 0.19, 0.05] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 315 
+--------------------------------------------------------- 
+The catalyst: [0.76, 0.2, 0.04] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 273 
+--------------------------------------------------------- 
+The catalyst: [0.76, 0.21, 0.03] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 216 
+--------------------------------------------------------- 
+The catalyst: [0.76, 0.22, 0.02] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 151 
+--------------------------------------------------------- 
+The catalyst: [0.76, 0.23, 0.01] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 73 
+--------------------------------------------------------- 
+The catalyst: [0.76, 0.24, 0.0] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 374 
+--------------------------------------------------------- 
+The catalyst: [0.77, 0.12, 0.11] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 59 
+--------------------------------------------------------- 
+The catalyst: [0.77, 0.13, 0.1] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 108 
+--------------------------------------------------------- 
+The catalyst: [0.77, 0.14, 0.09] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 176 
+--------------------------------------------------------- 
+The catalyst: [0.77, 0.15, 0.08] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 211 
+--------------------------------------------------------- 
+The catalyst: [0.77, 0.16, 0.07] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 246 
+--------------------------------------------------------- 
+The catalyst: [0.77, 0.17, 0.06] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 268 
+--------------------------------------------------------- 
+The catalyst: [0.77, 0.18, 0.05] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 278 
+--------------------------------------------------------- 
+The catalyst: [0.77, 0.19, 0.04] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 261 
+--------------------------------------------------------- 
+The catalyst: [0.77, 0.2, 0.03] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 204 
+--------------------------------------------------------- 
+The catalyst: [0.77, 0.21, 0.02] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 149 
+--------------------------------------------------------- 
+The catalyst: [0.77, 0.22, 0.01] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 75 
+--------------------------------------------------------- 
+The catalyst: [0.77, 0.23, 0.0] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 350 
+--------------------------------------------------------- 
+The catalyst: [0.78, 0.11, 0.11] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 42 
+--------------------------------------------------------- 
+The catalyst: [0.78, 0.12, 0.1] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 64 
+--------------------------------------------------------- 
+The catalyst: [0.78, 0.13, 0.09] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 125 
+--------------------------------------------------------- 
+The catalyst: [0.78, 0.14, 0.08] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 181 
+--------------------------------------------------------- 
+The catalyst: [0.78, 0.15, 0.07] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 215 
+--------------------------------------------------------- 
+The catalyst: [0.78, 0.16, 0.06] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 238 
+--------------------------------------------------------- 
+The catalyst: [0.78, 0.17, 0.05] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 250 
+--------------------------------------------------------- 
+The catalyst: [0.78, 0.18, 0.04] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 231 
+--------------------------------------------------------- 
+The catalyst: [0.78, 0.19, 0.03] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 195 
+--------------------------------------------------------- 
+The catalyst: [0.78, 0.2, 0.02] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 149 
+--------------------------------------------------------- 
+The catalyst: [0.78, 0.21, 0.01] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 73 
+--------------------------------------------------------- 
+The catalyst: [0.78, 0.22, 0.0] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 327 
+--------------------------------------------------------- 
+The catalyst: [0.79, 0.11, 0.1] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 45 
+--------------------------------------------------------- 
+The catalyst: [0.79, 0.12, 0.09] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 82 
+--------------------------------------------------------- 
+The catalyst: [0.79, 0.13, 0.08] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 137 
+--------------------------------------------------------- 
+The catalyst: [0.79, 0.14, 0.07] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 175 
+--------------------------------------------------------- 
+The catalyst: [0.79, 0.15, 0.06] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 214 
+--------------------------------------------------------- 
+The catalyst: [0.79, 0.16, 0.05] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 224 
+--------------------------------------------------------- 
+The catalyst: [0.79, 0.17, 0.04] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 222 
+--------------------------------------------------------- 
+The catalyst: [0.79, 0.18, 0.03] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 179 
+--------------------------------------------------------- 
+The catalyst: [0.79, 0.19, 0.02] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 137 
+--------------------------------------------------------- 
+The catalyst: [0.79, 0.2, 0.01] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 74 
+--------------------------------------------------------- 
+The catalyst: [0.79, 0.21, 0.0] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 306 
+--------------------------------------------------------- 
+The catalyst: [0.8, 0.1, 0.1] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 32 
+--------------------------------------------------------- 
+The catalyst: [0.8, 0.11, 0.09] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 52 
+--------------------------------------------------------- 
+The catalyst: [0.8, 0.12, 0.08] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 94 
+--------------------------------------------------------- 
+The catalyst: [0.8, 0.13, 0.07] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 136 
+--------------------------------------------------------- 
+The catalyst: [0.8, 0.14, 0.06] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 176 
+--------------------------------------------------------- 
+The catalyst: [0.8, 0.15, 0.05] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 196 
+--------------------------------------------------------- 
+The catalyst: [0.8, 0.16, 0.04] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 197 
+--------------------------------------------------------- 
+The catalyst: [0.8, 0.17, 0.03] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 173 
+--------------------------------------------------------- 
+The catalyst: [0.8, 0.18, 0.02] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 128 
+--------------------------------------------------------- 
+The catalyst: [0.8, 0.19, 0.01] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 68 
+--------------------------------------------------------- 
+The catalyst: [0.8, 0.2, 0.0] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 279 
+--------------------------------------------------------- 
+The catalyst: [0.81, 0.1, 0.09] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 33 
+--------------------------------------------------------- 
+The catalyst: [0.81, 0.11, 0.08] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 68 
+--------------------------------------------------------- 
+The catalyst: [0.81, 0.12, 0.07] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 108 
+--------------------------------------------------------- 
+The catalyst: [0.81, 0.13, 0.06] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 139 
+--------------------------------------------------------- 
+The catalyst: [0.81, 0.14, 0.05] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 157 
+--------------------------------------------------------- 
+The catalyst: [0.81, 0.15, 0.04] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 178 
+--------------------------------------------------------- 
+The catalyst: [0.81, 0.16, 0.03] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 160 
+--------------------------------------------------------- 
+The catalyst: [0.81, 0.17, 0.02] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 124 
+--------------------------------------------------------- 
+The catalyst: [0.81, 0.18, 0.01] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 63 
+--------------------------------------------------------- 
+The catalyst: [0.81, 0.19, 0.0] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 235 
+--------------------------------------------------------- 
+The catalyst: [0.82, 0.09, 0.09] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 25 
+--------------------------------------------------------- 
+The catalyst: [0.82, 0.1, 0.08] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 43 
+--------------------------------------------------------- 
+The catalyst: [0.82, 0.11, 0.07] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 82 
+--------------------------------------------------------- 
+The catalyst: [0.82, 0.12, 0.06] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 106 
+--------------------------------------------------------- 
+The catalyst: [0.82, 0.13, 0.05] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 138 
+--------------------------------------------------------- 
+The catalyst: [0.82, 0.14, 0.04] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 149 
+--------------------------------------------------------- 
+The catalyst: [0.82, 0.15, 0.03] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 142 
+--------------------------------------------------------- 
+The catalyst: [0.82, 0.16, 0.02] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 111 
+--------------------------------------------------------- 
+The catalyst: [0.82, 0.17, 0.01] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 55 
+--------------------------------------------------------- 
+The catalyst: [0.82, 0.18, 0.0] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 205 
+--------------------------------------------------------- 
+The catalyst: [0.83, 0.09, 0.08] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 26 
+--------------------------------------------------------- 
+The catalyst: [0.83, 0.1, 0.07] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 59 
+--------------------------------------------------------- 
+The catalyst: [0.83, 0.11, 0.06] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 86 
+--------------------------------------------------------- 
+The catalyst: [0.83, 0.12, 0.05] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 110 
+--------------------------------------------------------- 
+The catalyst: [0.83, 0.13, 0.04] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 123 
+--------------------------------------------------------- 
+The catalyst: [0.83, 0.14, 0.03] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 121 
+--------------------------------------------------------- 
+The catalyst: [0.83, 0.15, 0.02] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 109 
+--------------------------------------------------------- 
+The catalyst: [0.83, 0.16, 0.01] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 49 
+--------------------------------------------------------- 
+The catalyst: [0.83, 0.17, 0.0] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 171 
+--------------------------------------------------------- 
+The catalyst: [0.84, 0.08, 0.08] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 15 
+--------------------------------------------------------- 
+The catalyst: [0.84, 0.09, 0.07] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 33 
+--------------------------------------------------------- 
+The catalyst: [0.84, 0.1, 0.06] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 65 
+--------------------------------------------------------- 
+The catalyst: [0.84, 0.11, 0.05] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 87 
+--------------------------------------------------------- 
+The catalyst: [0.84, 0.12, 0.04] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 104 
+--------------------------------------------------------- 
+The catalyst: [0.84, 0.13, 0.03] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 103 
+--------------------------------------------------------- 
+The catalyst: [0.84, 0.14, 0.02] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 90 
+--------------------------------------------------------- 
+The catalyst: [0.84, 0.15, 0.01] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 49 
+--------------------------------------------------------- 
+The catalyst: [0.84, 0.16, 0.0] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 145 
+--------------------------------------------------------- 
+The catalyst: [0.85, 0.08, 0.07] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 19 
+--------------------------------------------------------- 
+The catalyst: [0.85, 0.09, 0.06] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 44 
+--------------------------------------------------------- 
+The catalyst: [0.85, 0.1, 0.05] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 62 
+--------------------------------------------------------- 
+The catalyst: [0.85, 0.11, 0.04] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 85 
+--------------------------------------------------------- 
+The catalyst: [0.85, 0.12, 0.03] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 88 
+--------------------------------------------------------- 
+The catalyst: [0.85, 0.13, 0.02] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 76 
+--------------------------------------------------------- 
+The catalyst: [0.85, 0.14, 0.01] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 42 
+--------------------------------------------------------- 
+The catalyst: [0.85, 0.15, 0.0] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 118 
+--------------------------------------------------------- 
+The catalyst: [0.86, 0.07, 0.07] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 9 
+--------------------------------------------------------- 
+The catalyst: [0.86, 0.08, 0.06] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 28 
+--------------------------------------------------------- 
+The catalyst: [0.86, 0.09, 0.05] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 45 
+--------------------------------------------------------- 
+The catalyst: [0.86, 0.1, 0.04] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 65 
+--------------------------------------------------------- 
+The catalyst: [0.86, 0.11, 0.03] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 70 
+--------------------------------------------------------- 
+The catalyst: [0.86, 0.12, 0.02] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 65 
+--------------------------------------------------------- 
+The catalyst: [0.86, 0.13, 0.01] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 36 
+--------------------------------------------------------- 
+The catalyst: [0.86, 0.14, 0.0] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 86 
+--------------------------------------------------------- 
+The catalyst: [0.87, 0.07, 0.06] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 14 
+--------------------------------------------------------- 
+The catalyst: [0.87, 0.08, 0.05] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 37 
+--------------------------------------------------------- 
+The catalyst: [0.87, 0.09, 0.04] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 44 
+--------------------------------------------------------- 
+The catalyst: [0.87, 0.1, 0.03] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 55 
+--------------------------------------------------------- 
+The catalyst: [0.87, 0.11, 0.02] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 56 
+--------------------------------------------------------- 
+The catalyst: [0.87, 0.12, 0.01] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 40 
+--------------------------------------------------------- 
+The catalyst: [0.87, 0.13, 0.0] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 67 
+--------------------------------------------------------- 
+The catalyst: [0.88, 0.06, 0.06] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 4 
+--------------------------------------------------------- 
+The catalyst: [0.88, 0.07, 0.05] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 22 
+--------------------------------------------------------- 
+The catalyst: [0.88, 0.08, 0.04] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 34 
+--------------------------------------------------------- 
+The catalyst: [0.88, 0.09, 0.03] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 44 
+--------------------------------------------------------- 
+The catalyst: [0.88, 0.1, 0.02] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 45 
+--------------------------------------------------------- 
+The catalyst: [0.88, 0.11, 0.01] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 34 
+--------------------------------------------------------- 
+The catalyst: [0.88, 0.12, 0.0] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 56 
+--------------------------------------------------------- 
+The catalyst: [0.89, 0.06, 0.05] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 9 
+--------------------------------------------------------- 
+The catalyst: [0.89, 0.07, 0.04] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 29 
+--------------------------------------------------------- 
+The catalyst: [0.89, 0.08, 0.03] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 33 
+--------------------------------------------------------- 
+The catalyst: [0.89, 0.09, 0.02] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 33 
+--------------------------------------------------------- 
+The catalyst: [0.89, 0.1, 0.01] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 27 
+--------------------------------------------------------- 
+The catalyst: [0.89, 0.11, 0.0] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 41 
+--------------------------------------------------------- 
+The catalyst: [0.9, 0.05, 0.05] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 1 
+--------------------------------------------------------- 
+The catalyst: [0.9, 0.06, 0.04] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 18 
+--------------------------------------------------------- 
+The catalyst: [0.9, 0.07, 0.03] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 25 
+--------------------------------------------------------- 
+The catalyst: [0.9, 0.08, 0.02] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 28 
+--------------------------------------------------------- 
+The catalyst: [0.9, 0.09, 0.01] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 23 
+--------------------------------------------------------- 
+The catalyst: [0.9, 0.1, 0.0] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 30 
+--------------------------------------------------------- 
+The catalyst: [0.91, 0.05, 0.04] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 3 
+--------------------------------------------------------- 
+The catalyst: [0.91, 0.06, 0.03] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 15 
+--------------------------------------------------------- 
+The catalyst: [0.91, 0.07, 0.02] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 21 
+--------------------------------------------------------- 
+The catalyst: [0.91, 0.08, 0.01] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 18 
+--------------------------------------------------------- 
+The catalyst: [0.91, 0.09, 0.0] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 21 
+--------------------------------------------------------- 
+The catalyst: [0.92, 0.04, 0.04] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 0 
+--------------------------------------------------------- 
+The catalyst: [0.92, 0.05, 0.03] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 6 
+--------------------------------------------------------- 
+The catalyst: [0.92, 0.06, 0.02] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 11 
+--------------------------------------------------------- 
+The catalyst: [0.92, 0.07, 0.01] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 14 
+--------------------------------------------------------- 
+The catalyst: [0.92, 0.08, 0.0] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 15 
+--------------------------------------------------------- 
+The catalyst: [0.93, 0.04, 0.03] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 2 
+--------------------------------------------------------- 
+The catalyst: [0.93, 0.05, 0.02] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 6 
+--------------------------------------------------------- 
+The catalyst: [0.93, 0.06, 0.01] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 5 
+--------------------------------------------------------- 
+The catalyst: [0.93, 0.07, 0.0] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 10 
+--------------------------------------------------------- 
+The catalyst: [0.94, 0.03, 0.03] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 0 
+--------------------------------------------------------- 
+The catalyst: [0.94, 0.04, 0.02] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 3 
+--------------------------------------------------------- 
+The catalyst: [0.94, 0.05, 0.01] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 2 
+--------------------------------------------------------- 
+The catalyst: [0.94, 0.06, 0.0] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 4 
+--------------------------------------------------------- 
+The catalyst: [0.95, 0.03, 0.02] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 1 
+--------------------------------------------------------- 
+The catalyst: [0.95, 0.04, 0.01] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 1 
+--------------------------------------------------------- 
+The catalyst: [0.95, 0.05, 0.0] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 0 
+--------------------------------------------------------- 
+The catalyst: [0.96, 0.02, 0.02] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 0 
+--------------------------------------------------------- 
+The catalyst: [0.96, 0.03, 0.01] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 0 
+--------------------------------------------------------- 
+The catalyst: [0.96, 0.04, 0.0] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 0 
+--------------------------------------------------------- 
+The catalyst: [0.97, 0.02, 0.01] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 0 
+--------------------------------------------------------- 
+The catalyst: [0.97, 0.03, 0.0] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 0 
+--------------------------------------------------------- 
+The catalyst: [0.98, 0.01, 0.01] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 0 
+--------------------------------------------------------- 
+The catalyst: [0.98, 0.02, 0.0] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 0 
+--------------------------------------------------------- 
+The catalyst: [0.99, 0.01, 0.0] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 0 
+--------------------------------------------------------- 
+The catalyst: [1.0, 0.0, 0.0] 
+  Pairs with impossible plain LOCC conversion: 11091 
+  Pairs with conversion enabled by catalyst: 0 
+--------------------------------------------------------- 
