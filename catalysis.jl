@@ -52,15 +52,15 @@ function plot_catalysis_results(results_dict, dim, total_pairs)
              legend=:topright)
              
     display(p)
-    savefig(p, "catalysis_curve_d$dim.png")
-    println("Plot saved as catalysis_curve_d$dim.png")
+    savefig(p, "./plots/catalysis_curve_d$dim.png")
+    # println("Plot saved as catalysis_curve_d$dim.png")
 end
 
 
-function single_dataset_analysis(d, dataset)
+function single_dataset_analysis(d, dataset, cat_dim)
     dataset_l = dataset[:, 1:20000] 
     dataset_r = dataset[:, 20001:40000]
-    catalysts = sample_catalysts(dimension=3)
+    catalysts = sample_catalysts(dimension=cat_dim)
 
     results_dict = Dict{Vector{Float64}, Int}()
     total_count = 0
@@ -69,7 +69,12 @@ function single_dataset_analysis(d, dataset)
 
     best_catalyst_ct = 0
 
-    output_file = "./outputs/dataset_analysis/output_verbose_3Dcat_d$d.txt"  
+    if cat_dim == 2
+        output_file = "./outputs/dataset_analysis/output_verbose_d$d.txt" 
+    elseif cat_dim == 3
+        output_file = "./outputs/dataset_analysis/output_verbose_3Dcat_d$d.txt"
+    end  
+
     open(output_file, "w") do io                                                                                                                                                      
         write(io, "Running a simulation for dataset of states with dimensin $d \n\n")
 
@@ -165,16 +170,22 @@ end
 
 if abspath(PROGRAM_FILE) == @__FILE__ 
     d = 12
+    cat_dim = 2
     @load "./datasets_40k/dataset_40k_d$d.jld2" dataset
 
-    best_catalyst, best_catalyst_ct, results_dict, total_count = single_dataset_analysis(d, dataset)
+    best_catalyst, best_catalyst_ct, results_dict, total_count = single_dataset_analysis(d, dataset, cat_dim)
     catalyst_ratio = best_catalyst_ct / total_count
 
     println("Dimension of the states: $d")
     println("The best catalyst: $best_catalyst")
     println("Catalysing ratio: $catalyst_ratio")
-    # plot_catalysis_results(results_dict, d, total_count)
-    plot_3D_catalysis_results(results_dict, d, total_count)
+    if cat_dim == 2
+        plot_catalysis_results(results_dict, d, total_count)
+    elseif cat_dim == 3
+        plot_3D_catalysis_results(results_dict, d, total_count)
+    end 
+    
+    # localized_analysis(results_dict, total_count)
 
     # analyze_single_transformation(dataset, d)
 end

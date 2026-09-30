@@ -279,3 +279,54 @@ function plot_3D_catalysis_results(results_dict, dim, total_pairs)
     savefig(p, "catalysis_heatmap_3D_d$dim.png")
     # println("Plot saved as catalysis_heatmap_3D_d$dim.png")
 end
+
+
+function localized_analysis(results_dict, total_count)
+    local_best_catalyst = Float64[]
+    local_best_ct = 0
+    best_aab_cat = Float64[]
+    best_aab_ct = 0
+
+    best_abb_cat = Float64[]
+    best_abb_ct = 0
+
+    for (cat, count) in results_dict
+        # Define "close to the line" as p3 being 0.05 or less
+        if cat[3] <= 0.03 
+            if count > local_best_ct
+                local_best_ct = count
+                local_best_catalyst = cat
+            end
+        end
+
+        # Test for (a, a, b) where p1 == p2
+        if isapprox(cat[1], cat[2], atol=1e-4)
+            if count > best_aab_ct
+                best_aab_ct = count
+                best_aab_cat = cat
+            end
+        end
+        
+        # Test for (a, b, b) where p2 == p3
+        if isapprox(cat[2], cat[3], atol=1e-4)
+            if count > best_abb_ct
+                best_abb_ct = count
+                best_abb_cat = cat
+            end
+        end
+    end
+
+    local_ratio = local_best_ct / total_count
+    
+    ratio_aab = best_aab_ct / total_count
+    ratio_abb = best_abb_ct / total_count
+    
+    # println("Local max near p1+p2=1: $local_best_catalyst")
+    # println("Local catalysing ratio: $local_ratio")
+
+    println("Local max on (a,a,b) border: $best_aab_cat")
+    println("Local (a,a,b) ratio: $ratio_aab")
+    
+    println("Local max on (a,b,b) border: $best_abb_cat")
+    println("Local (a,b,b) ratio: $ratio_abb")
+end
