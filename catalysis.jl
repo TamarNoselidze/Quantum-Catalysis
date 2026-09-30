@@ -33,16 +33,6 @@ function run_catalysis_simulation(left_side, right_side, catalyst)
 end
 
 
-function sample_catalysts(step=0.01, dimension=2)
-    catalysts = Vector{Float64}[]
-    for p in 0.5:step:1.0
-    # for p in 0.6:step:0.67
-        catalyst = [round(p, digits=4), round(1 - p, digits=4)]
-        push!(catalysts, catalyst)
-    end 
-    return catalysts
-end
-
 
 function plot_catalysis_results(results_dict, dim, total_pairs)
     # extract p value from the [p, 1-p] catalyst vector
@@ -70,15 +60,17 @@ end
 function single_dataset_analysis(d, dataset)
     dataset_l = dataset[:, 1:20000] 
     dataset_r = dataset[:, 20001:40000]
-    catalysts = sample_catalysts()
+    catalysts = sample_catalysts(dimension=3)
 
     results_dict = Dict{Vector{Float64}, Int}()
     total_count = 0
-    best_catalyst = Vector{Float64}
+    # best_catalyst = Vector{Float64}
+    best_catalyst = Float64[]
+
     best_catalyst_ct = 0
 
-    output_file = "./outputs/dataset_analysis/output_verbose_d$d.txt"  
-    open(output_file, "a") do io                                                                                                                                                      
+    output_file = "./outputs/dataset_analysis/output_verbose_3Dcat_d$d.txt"  
+    open(output_file, "w") do io                                                                                                                                                      
         write(io, "Running a simulation for dataset of states with dimensin $d \n\n")
 
         for catalyst in catalysts
@@ -109,15 +101,15 @@ end
 function analyze_single_transformation(dataset, d)
     dataset_l = dataset[:, 1:20000] 
     dataset_r = dataset[:, 20001:40000]
-    catalysts = sample_catalysts()
+    catalysts = sample_catalysts(dimension=3)
 
     n_samples = size(dataset_l, 2)
 
     found_count = 0 
     
 
-    output_file = "./outputs/transformation_analysis/transformation_analysis_verbose_d$d.txt"  
-    open(output_file, "a") do io                                                                                                                                                      
+    output_file = "./temp$d.txt"  
+    open(output_file, "w") do io                                                                                                                                                      
         write(io, "Analysing transformations for dimensin $d \n\n")
     
         for i in 1:n_samples
@@ -139,11 +131,24 @@ function analyze_single_transformation(dataset, d)
                 # if this transformation can be catalyzed, track which p-values worked
                 if !isempty(working_p_values)
                     found_count += 1
-                    
-                    write(io, "Transformation pair: $x and $y \n")
+
+                    x_sorted = sort(x, rev=true)  # sorted in descending order
+                    y_sorted = sort(y, rev=true)
+
+                    write(io, "Transformation pair: $x_sorted and $y_sorted \n")
                     write(io, "Transformation pair index: $i \n")
+
                     write(io, "Total catalysts that worked for this pair: $(length(working_p_values)) \n")
-                    write(io, "It works for p ranging from $(minimum(working_p_values)) to $(maximum(working_p_values)) \n")
+                    write(io, "Working p-value intervals: \n")
+                    intervals = p_val_intervals(working_p_values)
+                    write(io, "Number of disjoint intervals: $(length(intervals)) \n")
+                    for interval in intervals
+                        if length(interval) == 1
+                            write(io, "  -> Isolated value: $(interval[1])\n")
+                        else
+                            write(io, "  -> [$(interval[1]), $(interval[end])]  ($(length(interval)) values)\n")
+                        end
+                    end
                     write(io, "----------------------------------------------------------------------\n\n")
                     
                     # stop after a few specific transformations
@@ -162,13 +167,14 @@ if abspath(PROGRAM_FILE) == @__FILE__
     d = 12
     @load "./datasets_40k/dataset_40k_d$d.jld2" dataset
 
-    # best_catalyst, best_catalyst_ct, results_dict, total_count = single_dataset_analysis(d, dataset)
-    # catalyst_ratio = best_catalyst_ct / total_count
+    best_catalyst, best_catalyst_ct, results_dict, total_count = single_dataset_analysis(d, dataset)
+    catalyst_ratio = best_catalyst_ct / total_count
 
-    # println("Dimension of the states: $d")
-    # println("The best catalyst: $best_catalyst")
-    # println("Catalysing ratio: $catalyst_ratio")
+    println("Dimension of the states: $d")
+    println("The best catalyst: $best_catalyst")
+    println("Catalysing ratio: $catalyst_ratio")
     # plot_catalysis_results(results_dict, d, total_count)
+    plot_3D_catalysis_results(results_dict, d, total_count)
 
-    analyze_single_transformation(dataset, d)
+    # analyze_single_transformation(dataset, d)
 end
