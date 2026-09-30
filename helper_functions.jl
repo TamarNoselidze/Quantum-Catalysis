@@ -96,14 +96,10 @@ end
 
 function is_catalysis_possible(x, y, catalyst; tol=1e-9)
 
-    if is_majorized(x, y, tol=tol) || is_majorized(y, x, tol=tol)
-        return "States are not incomparable"
-    end
-
     x_joint = tensor_product_schmidt_vector(x, catalyst)
     y_joint = tensor_product_schmidt_vector(y, catalyst)
 
-    result = is_majorized(x_joint, y_joint)
+    result = is_locc_convertible(x_joint, y_joint)
     return result
 
 end
@@ -208,3 +204,78 @@ function plot_distance_histogram(dataset; num_bins=10, tol=0.05)
     end
 end
 
+
+
+function p_val_intervals(working_p_values; step=0.01, p0=0.5)
+    idx = [round(Int, (p - p0) / step) for p in working_p_values]
+    intervals = Vector{Vector{Float64}}()
+    current = [working_p_values[1]]
+    for j in 2:length(working_p_values)
+        if idx[j] == idx[j-1] + 1
+            push!(current, working_p_values[j])
+        else
+            push!(intervals, current)
+            current = [working_p_values[j]]
+        end
+    end
+    push!(intervals, current)
+    return intervals
+end
+
+
+function sample_catalysts(step=0.01; dimension=2)
+    catalysts = Vector{Vector{Float64}}()
+    
+    if dimension == 2
+        for p in 0.5:step:1.0
+        # for p in 0.6:step:0.67
+            catalyst = [round(p, digits=4), round(1 - p, digits=4)]
+            push!(catalysts, catalyst)
+        end
+    
+    else  # dim=3, maybe have to extend this for larger catalysts
+        steps_total = round(Int, 1.0 / step)
+        
+        # Loop through all possible values for the first two probabilities
+        for i in 0:steps_total
+            for j in 0:(steps_total - i)
+                # The third probability is whatever is left over
+                k = steps_total - i - j
+                
+                # only want descending order
+                if i >= j >= k
+                    # Convert back to standard decimal probabilities and round
+                    p1 = round(i * step, digits=4)
+                    p2 = round(j * step, digits=4)
+                    p3 = round(k * step, digits=4)
+                    
+                    push!(catalysts, [p1, p2, p3])
+                end
+            end
+        end
+    end
+
+    return catalysts
+end
+
+
+function plot_3D_catalysis_results(results_dict, dim, total_pairs)
+    # Extract p1, p2, and the success count
+    p1_vals = [cat[1] for (cat, count) in results_dict]
+    p2_vals = [cat[2] for (cat, count) in results_dict]
+    success_counts = [count for (cat, count) in results_dict]
+    
+    # Create a scatter plot where the color represents the success count
+    p = scatter(p1_vals, p2_vals, zcolor=success_counts,
+                xlabel="Catalyst Parameter p1", 
+                ylabel="Catalyst Parameter p2",
+                title="3D Catalysis Efficiency ($total_pairs pairs)",
+                linewidth=2, marker=:circle, label="d = $dim",
+                markersize=5, markerstrokewidth=0,
+                colorbar_title="Enabled Conversions",
+                legend=:topright, aspect_ratio=:equal)
+             
+    display(p)
+    savefig(p, "catalysis_heatmap_3D_d$dim.png")
+    # println("Plot saved as catalysis_heatmap_3D_d$dim.png")
+end
