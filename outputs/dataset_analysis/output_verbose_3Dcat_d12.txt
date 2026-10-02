@@ -1,4 +1,4 @@
-Running a simulation for dataset of states with dimensin 12 
+Running a simulation for dataset of states with dimension 12 
 
 The catalyst: [0.34, 0.33, 0.33] 
   Pairs with impossible plain LOCC conversion: 12697 
@@ -3536,3 +3536,16 @@ The catalyst: [1.0, 0.0, 0.0]
   Pairs with impossible plain LOCC conversion: 12697 
   Pairs with conversion enabled by catalyst: 0 
 --------------------------------------------------------- 
+
+=========================================================== 
+SUMMARY 
+Best catalyst: [0.57, 0.29, 0.14] 
+Conversions enabled by best catalyst: 922 
+Total incomparable pairs: 12697 
+Catalysing ratio: 0.07261557848310625 
+
+=========================================================== 
+LOCALIZED ANALYSIS 
+Local max near edge (p3<=0.03): [0.7, 0.3, 0.0], ratio: 0.04835787981412932 
+Local max on (a,a,b) border: [0.41, 0.41, 0.18], ratio: 0.04221469638497283 
+Local max on (a,b,b) border: [0.52, 0.24, 0.24], ratio: 0.040403244860990783 

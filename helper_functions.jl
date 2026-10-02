@@ -104,42 +104,6 @@ function is_catalysis_possible(x, y, catalyst; tol=1e-9)
 
 end
 
-"""
-Generate n_pairs i.i.d. pairs (x_i, y_i), each independently drawn from the
-uniform distribution on the d-dimensional simplex A. Avoids the problem that
-S X S is not uniformly iid in A X A, since pairs share no points with each other.
-"""
-function generate_iid_pairs(dimension, n_pairs)
-    pop = generate_simplex_dataset(dimension, 2 * n_pairs)  # 2N fresh iid draws
-    x_side = pop[:, 1:2:end]   # odd-indexed columns  -> N states
-    y_side = pop[:, 2:2:end]   # even-indexed columns -> N states
-    return x_side, y_side
-end
-
-"""
-Estimate, for a fixed state x, the fraction of `population` states that:
-  - x can directly reach via LOCC (x majorized by y)   -> forward_fraction
-  - can directly reach x via LOCC (y majorized by x)   -> backward_fraction
-"""
-function locc_cone_fractions(x, population; tol=1e-9)
-    n_pop = size(population, 2) # returns size of dimension 2 of the population matrix, i.e., number of columns (sampled states)
-    forward_count = 0
-    backward_count = 0
-
-    for i in 1:n_pop
-        y = @views population[:, i]
-        is_majorized(x, y; tol=tol) && (forward_count += 1)
-        is_majorized(y, x; tol=tol) && (backward_count += 1)
-    end
-
-    return forward_count / n_pop, backward_count / n_pop
-end
-
-
-
-
-
-
 
 
 
@@ -205,7 +169,8 @@ function plot_distance_histogram(dataset; num_bins=10, tol=0.05)
 end
 
 
-
+#Purpose: given a list of 2D catalyst parameter values p that successfully catalyzed some specific transition,
+#return a list of intervals of consecutive values
 function p_val_intervals(working_p_values; step=0.01, p0=0.5)
     idx = [round(Int, (p - p0) / step) for p in working_p_values]
     intervals = Vector{Vector{Float64}}()
@@ -223,6 +188,7 @@ function p_val_intervals(working_p_values; step=0.01, p0=0.5)
 end
 
 
+#Purpose: generate a list of catalysts for a given dimension and their step size (so far only 2D and 3D)
 function sample_catalysts(step=0.01; dimension=2)
     catalysts = Vector{Vector{Float64}}()
     
@@ -259,6 +225,8 @@ function sample_catalysts(step=0.01; dimension=2)
 end
 
 
+#Purpose: plot the 3D catalysis results as a 2D scatter plot (since 3D catalyst has only 2 free parameters)
+#with color representing success count
 function plot_3D_catalysis_results(results_dict, dim, total_pairs)
     # Extract p1, p2, and the success count
     p1_vals = [cat[1] for (cat, count) in results_dict]
@@ -281,7 +249,9 @@ function plot_3D_catalysis_results(results_dict, dim, total_pairs)
 end
 
 
-function localized_analysis(results_dict, total_count)
+#Purpose: perform a localized analysis of the 3D catalysis results, identifying 
+#the best catalysts near specific boundaries of the parameter space
+function localized_analysis(results_dict, total_count, output_file)
     local_best_catalyst = Float64[]
     local_best_ct = 0
     best_aab_cat = Float64[]
@@ -320,6 +290,15 @@ function localized_analysis(results_dict, total_count)
     
     ratio_aab = best_aab_ct / total_count
     ratio_abb = best_abb_ct / total_count
+
+    #added details to the text output file; function is unchanged besides this
+    open(output_file, "a") do io   # "a" = append, so this adds on after the existing SUMMARY block
+        write(io, "\n=========================================================== \n")
+        write(io, "LOCALIZED ANALYSIS \n")
+        write(io, "Local max near edge (p3<=0.03): $local_best_catalyst, ratio: $local_ratio \n")
+        write(io, "Local max on (a,a,b) border: $best_aab_cat, ratio: $ratio_aab \n")
+        write(io, "Local max on (a,b,b) border: $best_abb_cat, ratio: $ratio_abb \n")
+    end
     
     # println("Local max near p1+p2=1: $local_best_catalyst")
     # println("Local catalysing ratio: $local_ratio")
@@ -330,3 +309,36 @@ function localized_analysis(results_dict, total_count)
     println("Local max on (a,b,b) border: $best_abb_cat")
     println("Local (a,b,b) ratio: $ratio_abb")
 end
+
+
+
+"""
+Generate n_pairs i.i.d. pairs (x_i, y_i), each independently drawn from the
+uniform distribution on the d-dimensional simplex A. Avoids the problem that
+S X S is not uniformly iid in A X A, since pairs share no points with each other.
+
+function generate_iid_pairs(dimension, n_pairs)
+    pop = generate_simplex_dataset(dimension, 2 * n_pairs)  # 2N fresh iid draws
+    x_side = pop[:, 1:2:end]   # odd-indexed columns  -> N states
+    y_side = pop[:, 2:2:end]   # even-indexed columns -> N states
+    return x_side, y_side
+end
+
+Estimate, for a fixed state x, the fraction of `population` states that:
+  - x can directly reach via LOCC (x majorized by y)   -> forward_fraction
+  - can directly reach x via LOCC (y majorized by x)   -> backward_fraction
+
+function locc_cone_fractions(x, population; tol=1e-9)
+    n_pop = size(population, 2) # returns size of dimension 2 of the population matrix, i.e., number of columns (sampled states)
+    forward_count = 0
+    backward_count = 0
+
+    for i in 1:n_pop
+        y = @views population[:, i]
+        is_majorized(x, y; tol=tol) && (forward_count += 1)
+        is_majorized(y, x; tol=tol) && (backward_count += 1)
+    end
+
+    return forward_count / n_pop, backward_count / n_pop
+end
+"""

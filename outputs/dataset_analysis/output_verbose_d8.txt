@@ -1,4 +1,4 @@
-Running a simulation for dataset of states with dimensin 8 
+Running a simulation for dataset of states with dimension 8 
 
 The catalyst: [0.5, 0.5] 
   Pairs with impossible plain LOCC conversion: 11091 
@@ -204,3 +204,10 @@ The catalyst: [1.0, 0.0]
   Pairs with impossible plain LOCC conversion: 11091 
   Pairs with conversion enabled by catalyst: 0 
 --------------------------------------------------------- 
+
+=========================================================== 
+SUMMARY 
+Best catalyst: [0.68, 0.32] 
+Conversions enabled by best catalyst: 473 
+Total incomparable pairs: 11091 
+Catalysing ratio: 0.0426471914164638 
