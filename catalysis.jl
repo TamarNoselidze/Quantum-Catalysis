@@ -192,8 +192,10 @@ if abspath(PROGRAM_FILE) == @__FILE__
     println("The best catalyst: $best_catalyst")
     println("Catalysing ratio: $catalyst_ratio")
 
+    plotlyjs()  
+    plot_4D_catalysis_results(results_dict, state_dim, total_count)
 
-
+    
     # if catalyst_dim == 2
     #     plot_catalysis_results(results_dict, state_dim, total_count)
     # elseif catalyst_dim == 3

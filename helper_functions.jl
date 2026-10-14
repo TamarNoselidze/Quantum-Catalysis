@@ -219,7 +219,7 @@ function sample_catalysts(step=0.01; dimension=2)
                 end
             end
         end
-        
+
     elseif dimension == 4
         steps_total = round(Int, 1.0 / step)
         
@@ -269,6 +269,28 @@ function plot_3D_catalysis_results(results_dict, dim, total_pairs)
     display(p)
     savefig(p, "catalysis_heatmap_3D_d$dim.png")
     # println("Plot saved as catalysis_heatmap_3D_d$dim.png")
+end
+
+
+function plot_4D_catalysis_results(results_dict, dim, total_pairs)
+    p1_vals = [cat[1] for (cat, count) in results_dict]
+    p2_vals = [cat[2] for (cat, count) in results_dict]
+    p3_vals = [cat[3] for (cat, count) in results_dict]
+    success_counts = [count for (cat, count) in results_dict]
+    
+    p = scatter3d(p1_vals, p2_vals, p3_vals, zcolor=success_counts,
+                  xlabel="Parameter p1", 
+                  ylabel="Parameter p2",
+                  zlabel="Parameter p3",
+                  title="4D Catalysis Efficiency ($total_pairs pairs)",
+                  marker=:circle, markersize=3, markerstrokewidth=0,
+                  colorbar_title="Enabled Conversions",
+                  legend=false,
+                  camera=(45, 30))
+             
+    # Save as HTML for full Plotly interactivity
+    savefig(p, "catalysis_scatter3D_d$(dim)_4D.html")
+    println("Interactive plot saved as catalysis_scatter3D_d$(dim)_4D.html")
 end
 
 
