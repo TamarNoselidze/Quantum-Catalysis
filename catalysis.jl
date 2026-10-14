@@ -57,12 +57,11 @@ function plot_catalysis_results(results_dict, dim, total_pairs)
 end
 
 
-function single_dataset_analysis(d, dataset, cat_dim)
+function single_dataset_analysis(state_dim, dataset, catalysts, output_file)
 
     #For one fixed dimension d, split one big pre-generated dataset into two disjoint halves
     dataset_l = dataset[:, 1:20000] 
     dataset_r = dataset[:, 20001:40000]
-    catalysts = sample_catalysts(dimension=cat_dim)
 
     results_dict = Dict{Vector{Float64}, Int}()
     total_count = 0
@@ -71,14 +70,8 @@ function single_dataset_analysis(d, dataset, cat_dim)
 
     best_catalyst_ct = 0
 
-    if cat_dim == 2
-        output_file = "./outputs/dataset_analysis/output_verbose_d$d.txt" 
-    elseif cat_dim == 3
-        output_file = "./outputs/dataset_analysis/output_verbose_3Dcat_d$d.txt"
-    end  
-
     open(output_file, "w") do io                                                                                                                                                      
-        write(io, "Running a simulation for dataset of states with dimension $d \n\n")
+        write(io, "Running a simulation for dataset of states with dimension $state_dim \n\n")
 
         for catalyst in catalysts
             write(io, "The catalyst: $catalyst \n")
@@ -116,10 +109,10 @@ end
 
 
 #Purpose: analyze a single transformation (x, y) for all possible catalysts and track which p-values work
-function analyze_single_transformation(dataset, d)
+function analyze_single_transformation(dataset, state_dim, )
     dataset_l = dataset[:, 1:20000] 
     dataset_r = dataset[:, 20001:40000]
-    catalysts = sample_catalysts(dimension=3)
+    catalysts = sample_catalysts(dimension=4)
 
     n_samples = size(dataset_l, 2)
 
@@ -128,7 +121,7 @@ function analyze_single_transformation(dataset, d)
 
     output_file = "./temp$d.txt"  
     open(output_file, "w") do io                                                                                                                                                      
-        write(io, "Analysing transformations for dimensin $d \n\n")
+        write(io, "Analysing transformations for dimension $state_dim \n\n")
     
         for i in 1:n_samples
             x = @views dataset_l[:, i]
@@ -182,23 +175,32 @@ end
 
 
 if abspath(PROGRAM_FILE) == @__FILE__ 
-    d = 12
-    cat_dim = 3
-    @load "./datasets_40k/dataset_40k_d$d.jld2" dataset
+    # d = 12
+    state_dim = 4
+    catalyst_dim = 4
+    @load "./datasets_40k/dataset_40k_d$state_dim.jld2" dataset
 
-    best_catalyst, best_catalyst_ct, results_dict, total_count, output_file = single_dataset_analysis(d, dataset, cat_dim)
+    output_file = "./outputs/dataset_analysis/state_$(state_dim)D_catalyst_$(catalyst_dim)D.txt" 
+
+    # print(output_file)
+    catalysts = sample_catalysts(dimension=catalyst_dim)
+
+    best_catalyst, best_catalyst_ct, results_dict, total_count = single_dataset_analysis(state_dim, dataset, catalysts, output_file)
     catalyst_ratio = best_catalyst_ct / total_count
 
-    println("Dimension of the states: $d")
+    println("Dimension of the states: $state_dim")
     println("The best catalyst: $best_catalyst")
     println("Catalysing ratio: $catalyst_ratio")
-    if cat_dim == 2
-        plot_catalysis_results(results_dict, d, total_count)
-    elseif cat_dim == 3
-        plot_3D_catalysis_results(results_dict, d, total_count)
-    end 
+
+
+
+    # if catalyst_dim == 2
+    #     plot_catalysis_results(results_dict, state_dim, total_count)
+    # elseif catalyst_dim == 3
+    #     plot_3D_catalysis_results(results_dict, state_dim, total_count)
+    # end 
     
-    localized_analysis(results_dict, total_count, output_file)
+    # localized_analysis(results_dict, total_count, output_file)
 
     # analyze_single_transformation(dataset, d)
 end

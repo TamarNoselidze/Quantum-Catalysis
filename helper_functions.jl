@@ -199,7 +199,7 @@ function sample_catalysts(step=0.01; dimension=2)
             push!(catalysts, catalyst)
         end
     
-    else  # dim=3, maybe have to extend this for larger catalysts
+    elseif  dimension ==3
         steps_total = round(Int, 1.0 / step)
         
         # Loop through all possible values for the first two probabilities
@@ -216,6 +216,29 @@ function sample_catalysts(step=0.01; dimension=2)
                     p3 = round(k * step, digits=4)
                     
                     push!(catalysts, [p1, p2, p3])
+                end
+            end
+        end
+        
+    elseif dimension == 4
+        steps_total = round(Int, 1.0 / step)
+        
+        # Loop through the first three probabilities
+        for i in 0:steps_total
+            for j in 0:(steps_total - i)
+                for k in 0:(steps_total - i - j)
+                    # The fourth probability is the remainder
+                    l = steps_total - i - j - k
+                    
+                    # Enforce strictly descending order for 4D
+                    if i >= j >= k >= l
+                        p1 = round(i * step, digits=4)
+                        p2 = round(j * step, digits=4)
+                        p3 = round(k * step, digits=4)
+                        p4 = round(l * step, digits=4)
+                        
+                        push!(catalysts, [p1, p2, p3, p4])
+                    end
                 end
             end
         end
