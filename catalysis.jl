@@ -1,13 +1,15 @@
 using JLD2
 using Plots
 
-include("helper_functions.jl")
-
+include("catalysis_helper_functions.jl")
+include("visualization.jl")
+include("sampling.jl")
+include("localised_analysis.jl")
+include("save_to_json.jl")
 
 function run_catalysis_simulation(left_side, right_side, catalyst)
     plain_locc_impossible_count = 0
     catalysis_possible_count = 0
-
 
     n_samples = size(left_side, 2) # returns size of dimension 2 of the dataset matrix, i.e., number of columns (sampled states)
 
@@ -32,29 +34,6 @@ function run_catalysis_simulation(left_side, right_side, catalyst)
     return plain_locc_impossible_count, catalysis_possible_count
 end
 
-
-
-function plot_catalysis_results(results_dict, dim, total_pairs)
-    # extract p value from the [p, 1-p] catalyst vector
-    data = [(cat[1], count) for (cat, count) in results_dict]
-    
-    sort!(data, by = x -> x[1])
-    
-    # split into x and y arrays for plotting
-    catalysts_x = [d[1] for d in data]
-    success_counts = [d[2] for d in data]
-    
-    p = plot(catalysts_x, success_counts, 
-             xlabel="Catalyst Parameter (p)", 
-             ylabel="Enabled Conversions", 
-             title="Catalysis Efficiency vs. Parameter p ($total_pairs total pairs)",
-             linewidth=2, marker=:circle, label="d = $dim",
-             legend=:topright)
-             
-    display(p)
-    savefig(p, "./plots/catalysis_curve_d$dim.png")
-    # println("Plot saved as catalysis_curve_d$dim.png")
-end
 
 
 function single_dataset_analysis(state_dim, dataset, catalysts, output_file)
@@ -161,11 +140,6 @@ function analyze_single_transformation(dataset, state_dim, )
                         end
                     end
                     write(io, "----------------------------------------------------------------------\n\n")
-                    
-                    # stop after a few specific transformations
-                    # if found_count >= 3
-                    #     break 
-                    # end
                 end
             end
         end
@@ -174,35 +148,46 @@ end
 
 
 
+
 if abspath(PROGRAM_FILE) == @__FILE__ 
-    # d = 12
-    state_dim = 4
+    state_dim = 12
     catalyst_dim = 4
-    @load "./datasets_40k/dataset_40k_d$state_dim.jld2" dataset
+    # @load "./datasets_40k/dataset_40k_d$state_dim.jld2" dataset
 
-    output_file = "./outputs/dataset_analysis/state_$(state_dim)D_catalyst_$(catalyst_dim)D.txt" 
+    output_txt = "./outputs/dataset_analysis/4D_Catalysts/state_$(state_dim)D_catalyst_$(catalyst_dim)D.txt" 
+    output_json = "./outputs/dataset_analysis/4D_Catalysts/Raw_Results/state$(state_dim)D_cat$(catalyst_dim)D.json"
 
-    # print(output_file)
-    catalysts = sample_catalysts(dimension=catalyst_dim)
+    # Only run the heavy simulation if we haven't saved the JSON yet
+    if isfile(output_json)
+        println("Found existing results, loading from JSON...")
+        results_dict = load_results_json(output_json)
+        
+        total_count = 20000 # hardcoded now, but has to be fixed!!
+    else
+        println("No JSON found, running full simulation...")
+        @load "./datasets_40k/dataset_40k_d$state_dim.jld2" dataset
+        catalysts = sample_catalysts(dimension=catalyst_dim)
+        
+        best_catalyst, best_catalyst_ct, results_dict, total_count = single_dataset_analysis(state_dim, dataset, catalysts, output_txt)
+        catalyst_ratio = best_catalyst_ct / total_count
+        
+        save_results_json(results_dict, output_json)
+    end
 
-    best_catalyst, best_catalyst_ct, results_dict, total_count = single_dataset_analysis(state_dim, dataset, catalysts, output_file)
-    catalyst_ratio = best_catalyst_ct / total_count
+    # catalysts = sample_catalysts(dimension=catalyst_dim)
 
-    println("Dimension of the states: $state_dim")
-    println("The best catalyst: $best_catalyst")
-    println("Catalysing ratio: $catalyst_ratio")
+    # best_catalyst, best_catalyst_ct, results_dict, total_count = single_dataset_analysis(state_dim, dataset, catalysts, output_file)
+    # catalyst_ratio = best_catalyst_ct / total_count
 
-    plotlyjs()  
-    plot_4D_catalysis_results(results_dict, state_dim, total_count)
+    # println("Dimension of the states: $state_dim")
+    # println("The best catalyst: $best_catalyst")
+    # println("Catalysing ratio: $catalyst_ratio")
+
+    # plotlyjs()  
+    # plot_catalysis_results(results_dict, state_dim, total_count, catalyst_dim)
 
     
-    # if catalyst_dim == 2
-    #     plot_catalysis_results(results_dict, state_dim, total_count)
-    # elseif catalyst_dim == 3
-    #     plot_3D_catalysis_results(results_dict, state_dim, total_count)
-    # end 
-    
-    # localized_analysis(results_dict, total_count, output_file)
+    localised_4D_analysis(results_dict, total_count, output_txt)
 
     # analyze_single_transformation(dataset, d)
 end
