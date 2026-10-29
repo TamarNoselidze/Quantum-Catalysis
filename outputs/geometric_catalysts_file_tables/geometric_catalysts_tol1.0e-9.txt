@@ -1,0 +1,72 @@
+GEOMETRIC CATALYSTS: do the best catalysts have a geometric shape?
+A geometric catalyst with k levels has squared Schmidt coefficients proportional to 1, r, r^2, ..., r^(k-1),
+with 0 < r < 1, so one number r describes it. Small r = peaked (little entanglement); r near 1 = flat
+(close to maximally entangled).
+Catalytic power = pairs made convertible by the catalyst / pairs plain LOCC cannot convert, in percent.
+Setup: 20000 original pairs and 100000 new pairs per state dimension; 91 values of r per row
+(from 0.05 to 0.95); majorization tolerance TOL = 1.0e-9.
+
+A. SHAPE TEST: are the best catalysts from the full grid simulations geometric?
+   For each grid winner, the closest geometric catalyst was found (no simulation needed).
+   k       number of levels of the catalyst
+   d       dimension of the states
+   r_fit   ratio r of the closest geometric catalyst
+   dist    distance between the grid winner and that geometric catalyst (0 = exactly geometric;
+           below about 0.02 = close)
+
+k   d   | r_fit  dist    | grid winner -> closest geometric catalyst
+2   4   | 0.538  0.0003  | [0.65, 0.35] -> [0.65, 0.35]
+2   8   | 0.471  0.0003  | [0.68, 0.32] -> [0.68, 0.32]
+2   12  | 0.429  0.0003  | [0.7, 0.3] -> [0.7, 0.3]
+3   4   | 0.651  0.0078  | [0.48, 0.32, 0.2] -> [0.482, 0.314, 0.204]
+3   8   | 0.535  0.0048  | [0.55, 0.29, 0.16] -> [0.549, 0.294, 0.157]
+3   12  | 0.501  0.0053  | [0.57, 0.29, 0.14] -> [0.571, 0.286, 0.143]
+4   4   | 0.704  0.0099  | [0.39, 0.28, 0.2, 0.13] -> [0.392, 0.276, 0.194, 0.137]
+4   5   | 0.632  0.0087  | [0.44, 0.27, 0.18, 0.11] -> [0.438, 0.277, 0.175, 0.111]
+4   6   | 0.642  0.0058  | [0.43, 0.28, 0.18, 0.11] -> [0.431, 0.277, 0.178, 0.114]
+4   7   | 0.626  0.0115  | [0.44, 0.28, 0.18, 0.1] -> [0.442, 0.277, 0.173, 0.108]
+4   8   | 0.594  0.0170  | [0.46, 0.29, 0.16, 0.09] -> [0.464, 0.275, 0.164, 0.097]
+4   9   | 0.597  0.0109  | [0.46, 0.28, 0.17, 0.09] -> [0.462, 0.276, 0.165, 0.098]
+4   10  | 0.558  0.0097  | [0.49, 0.27, 0.16, 0.08] -> [0.489, 0.273, 0.152, 0.085]
+4   11  | 0.541  0.0132  | [0.5, 0.28, 0.15, 0.07] -> [0.502, 0.272, 0.147, 0.079]
+4   12  | 0.544  0.0029  | [0.5, 0.27, 0.15, 0.08] -> [0.5, 0.272, 0.148, 0.08]
+
+B. Best geometric catalyst for each catalyst size k and state dimension d
+   r was chosen on the original pairs, then the catalyst was scored once on the new pairs.
+   r*          best ratio found for the grid simulation
+   r_fit       ratio implied by the grid winner's shape (from A); '-' where no grid winner exists (k > 4)
+   orig_%      catalytic power of the geometric catalyst on the original pairs (in-sample)
+   grid_%      catalytic power of the best catalyst of the full grid simulation, original pairs (in-sample)
+   new_%       catalytic power of the geometric catalyst on the new pairs (unbiased)
+   +-se        standard error of new_% (about 2 se gives a 95% range)
+   grid_new_%  the grid winner on the same new pairs (validation_results.txt), for a paired comparison
+   catalyst    squared Schmidt coefficients of the geometric catalyst; ! = smallest coefficient below 1.0e-6
+   Reading it: orig_% close to grid_% and new_% close to grid_new_% means the geometric family
+   captures the best catalysts.
+
+k   d   | r*     r_fit  | orig_%   grid_%   | new_%    ±se    grid_new_%  | catalyst
+2   4   | 0.53   0.538  | 2.35     2.37     | 2.05     0.07   2.06        | [0.654, 0.346]
+3   4   | 0.61   0.651  | 3.30     3.27     | 3.16     0.09   3.11        | [0.505, 0.308, 0.188]
+4   4   | 0.67   0.704  | 4.04     4.04     | 3.86     0.10   3.71        | [0.413, 0.277, 0.186, 0.124]
+2   8   | 0.47   0.471  | 4.26     4.26     | 4.32     0.09   4.31        | [0.68, 0.32]
+3   8   | 0.54   0.535  | 6.44     6.43     | 6.58     0.11   6.51        | [0.546, 0.295, 0.159]
+4   8   | 0.57   0.594  | 7.73     7.76     | 7.76     0.11   7.65        | [0.481, 0.274, 0.156, 0.089]
+2   12  | 0.43   0.429  | 4.84     4.84     | 4.77     0.08   4.78        | [0.699, 0.301]
+3   12  | 0.52   0.501  | 7.25     7.26     | 7.12     0.10   7.22        | [0.559, 0.29, 0.151]
+4   12  | 0.52   0.544  | 8.56     8.58     | 8.34     0.11   8.47        | [0.518, 0.269, 0.14, 0.073]
+
+C1. BEST RATIO r* by catalyst size k (rows) and state dimension d (columns)
+    Small r = peaked catalyst, r near 1 = flat catalyst. Shows how the best shape changes with k and d.
+
+k   d=4     d=8     d=12    
+2   0.53    0.47    0.43    
+3   0.61    0.54    0.52    
+4   0.67    0.57    0.52    
+
+C2. CATALYTIC POWER on the new pairs (%), best geometric catalyst, with standard error
+    Shows how much a larger catalyst (down the rows) or larger states (across the columns) helps.
+
+k   d=4             d=8             d=12            
+2   2.05 ± 0.07     4.32 ± 0.09     4.77 ± 0.08     
+3   3.16 ± 0.09     6.58 ± 0.11     7.12 ± 0.10     
+4   3.86 ± 0.10     7.76 ± 0.11     8.34 ± 0.11     

@@ -3,6 +3,7 @@
 function localised_3D_analysis(results_dict, total_count, output_file)
     local_best_catalyst = Float64[]
     local_best_ct = 0
+
     best_aab_cat = Float64[]
     best_aab_ct = 0
 
@@ -40,7 +41,6 @@ function localised_3D_analysis(results_dict, total_count, output_file)
     ratio_aab = best_aab_ct / total_count
     ratio_abb = best_abb_ct / total_count
 
-    #added details to the text output file; function is unchanged besides this
     open(output_file, "a") do io   # "a" = append, so this adds on after the existing SUMMARY block
         write(io, "\n=========================================================== \n")
         write(io, "LOCALIZED ANALYSIS \n")
@@ -160,14 +160,14 @@ function localised_4D_analysis(results_dict, total_count, output_file)
 
         ## PQ Params
         # Test for (pq,p(1-q),(1-p)q,(1-p)(1-q))
-        if isapprox(cat[1] * cat[4], cat[2] * cat[3], atol=1e-4)
+        if isapprox(cat[1] * cat[4], cat[2] * cat[3], atol=1e-6)
             if count > best_pq_ct
                 best_pq_ct = count
                 best_pq_cat = cat
             end
         end
 
-        if isapprox(cat[1] * cat[4], cat[2] * cat[3], atol=1e-4) && isapprox(cat[2], cat[3], atol=1e-4)
+        if isapprox(cat[1] * cat[4], cat[2] * cat[3], atol=1e-6) && isapprox(cat[2], cat[3], atol=1e-4)
             if count > best_pq2_ct
                 best_pq2_ct = count
                 best_pq2_cat = cat
@@ -206,7 +206,7 @@ function localised_4D_analysis(results_dict, total_count, output_file)
         # Loop over the ratios array and print results
         for (family_name, (cat_vector, ratio_val)) in ratios
             if isempty(cat_vector)
-                write(io, "$family_name : No catalysts sampled in this family.\n")
+                write(io, "$family_name : no catalyst in this family enabled any conversion.\n")
             else
                 write(io, "$family_name : Best is $cat_vector  |  Ratio: $ratio_val \n")
             end

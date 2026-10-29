@@ -48,7 +48,7 @@ function is_catalysis_possible(x, y, catalyst; tol=1e-9)
     x_joint = tensor_product_schmidt_vector(x, catalyst)
     y_joint = tensor_product_schmidt_vector(y, catalyst)
 
-    result = is_locc_convertible(x_joint, y_joint)
+    result = is_locc_convertible(x_joint, y_joint; tol=tol)
     return result
 
 end
