@@ -158,12 +158,16 @@ end
 #main file should only run when no argument is given
 # run with julia --project=. catalysis.jl
 if abspath(PROGRAM_FILE) == abspath(@__FILE__) && isempty(ARGS)
-    state_dim = 12
+    state_dim = 20
     catalyst_dim = 4
     # @load "./datasets_40k/dataset_40k_d$state_dim.jld2" dataset
 
-    output_txt   = "./outputs/dataset_analysis/4D_Catalysts/state_$(state_dim)D_catalyst_$(catalyst_dim)D.txt"
-    output_json  = "./outputs/dataset_analysis/4D_Catalysts/Raw_Results/state$(state_dim)D_cat$(catalyst_dim)D.json"
+    # output_txt   = "./outputs/dataset_analysis/4D_Catalysts/state_$(state_dim)D_catalyst_$(catalyst_dim)D.txt"
+    # output_json  = "./outputs/dataset_analysis/4D_Catalysts/Raw_Results/state$(state_dim)D_cat$(catalyst_dim)D.json"
+    output_txt   = "./outputs/dataset_analysis/$(catalyst_dim)D_Catalysts/state_$(state_dim)D_catalyst_$(catalyst_dim)D.txt"
+    output_json  = "./outputs/dataset_analysis/$(catalyst_dim)D_Catalysts/Raw_Results/state$(state_dim)D_cat$(catalyst_dim)D.json"
+
+  
     output_local = replace(output_txt, ".txt" => "_localised.txt")
 
     mkpath(dirname(output_txt))      # create folders if missing
@@ -188,8 +192,12 @@ if abspath(PROGRAM_FILE) == abspath(@__FILE__) && isempty(ARGS)
     end
 
     isfile(output_local) && rm(output_local)   # avoid appending duplicate blocks on reruns
-    localised_4D_analysis(results_dict, total_count, output_local)
+    # localised_4D_analysis(results_dict, total_count, output_local)
+    localised_3D_analysis(results_dict, total_count, output_local)
 
+  
+
+  
     # catalysts = sample_catalysts(dimension=catalyst_dim)
 
     # best_catalyst, best_catalyst_ct, results_dict, total_count = single_dataset_analysis(state_dim, dataset, catalysts, output_file)
