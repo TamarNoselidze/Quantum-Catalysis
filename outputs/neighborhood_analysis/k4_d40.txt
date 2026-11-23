@@ -1,0 +1,38 @@
+===========================================================================
+PILOT NEIGHBORHOOD ANALYSIS REPORT
+===========================================================================
+State dim: 40 | Catalyst dim: 4 | Incomparable pairs: 15633
+Anchor c0: [0.51786, 0.26929, 0.14003, 0.07282] (r*=0.520) | Radius ε: 0.030 | Step δ: 0.0050
+Total neighbors tested: 443
+
+--- SUMMARY METRICS ---
+Anchor c0 conversions:      1271 / 15633  (8.13%)
+Maximum conversions found:  1307 / 15633  (8.36%)
+Minimum conversions found:  1067 / 15633  (6.83%)
+Average neighborhood power: 7.86%
+
+--- LOCAL PEAK STATUS ---
+>> STATUS: NOT A PEAK. Found 133 neighbor(s) that outperformed c0 (gain: +36 conversions, +0.23%).
+Neighbors strictly worse:  306 (69.1%)
+Neighbors equal to c0:     4 (0.9%)
+Neighbors strictly better: 133 (30.0%)
+
+--- BEST NEIGHBOR DETAILS ---
+Best Catalyst Vector:  [0.52286, 0.28929, 0.13503, 0.05282]
+Conversions Enabled:   1307 (8.36%)
+Distance to Anchor c0: 0.0292
+Distance to Geometric: 0.0273  (0 = purely geometric, >0 = non-geometric)
+
+--- TOP 10 NEIGHBORS IN B_ε(c0) ---
+Rank | Conversions | Power (%) | Dist(c0) | Dist(geom) | Catalyst Vector
+1    | 1307       | 8.36   % | 0.0292   | 0.0273     | [0.52286, 0.28929, 0.13503, 0.05282]
+2    | 1304       | 8.34   % | 0.0274   | 0.0188     | [0.53286, 0.27929, 0.13503, 0.05282]
+3    | 1303       | 8.33   % | 0.0255   | 0.0087     | [0.53786, 0.26929, 0.13503, 0.05782]
+4    | 1302       | 8.33   % | 0.0212   | 0.0159     | [0.52786, 0.27929, 0.13503, 0.05782]
+5    | 1302       | 8.33   % | 0.0274   | 0.0229     | [0.52786, 0.28429, 0.13503, 0.05282]
+6    | 1301       | 8.32   % | 0.0255   | 0.0208     | [0.50286, 0.28429, 0.15003, 0.06282]
+7    | 1301       | 8.32   % | 0.0224   | 0.0204     | [0.52286, 0.28429, 0.13503, 0.05782]
+8    | 1301       | 8.32   % | 0.0224   | 0.0118     | [0.53286, 0.27429, 0.13503, 0.05782]
+9    | 1300       | 8.32   % | 0.0212   | 0.0181     | [0.50786, 0.27429, 0.15503, 0.06282]
+10   | 1300       | 8.32   % | 0.0200   | 0.0173     | [0.50786, 0.27929, 0.15003, 0.06282]
+===========================================================================
