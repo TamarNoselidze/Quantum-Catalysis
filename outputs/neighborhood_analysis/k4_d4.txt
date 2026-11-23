@@ -1,0 +1,38 @@
+===========================================================================
+PILOT NEIGHBORHOOD ANALYSIS REPORT
+===========================================================================
+State dim: 4 | Catalyst dim: 4 | Incomparable pairs: 7311
+Anchor c0: [0.39479, 0.27635, 0.19345, 0.13541] (r*=0.700) | Radius ε: 0.030 | Step δ: 0.0050
+Total neighbors tested: 448
+
+--- SUMMARY METRICS ---
+Anchor c0 conversions:      287 / 7311  (3.93%)
+Maximum conversions found:  298 / 7311  (4.08%)
+Minimum conversions found:  230 / 7311  (3.15%)
+Average neighborhood power: 3.70%
+
+--- LOCAL PEAK STATUS ---
+>> STATUS: NOT A PEAK. Found 44 neighbor(s) that outperformed c0 (gain: +11 conversions, +0.15%).
+Neighbors strictly worse:  392 (87.5%)
+Neighbors equal to c0:     12 (2.7%)
+Neighbors strictly better: 44 (9.8%)
+
+--- BEST NEIGHBOR DETAILS ---
+Best Catalyst Vector:  [0.40479, 0.27635, 0.19345, 0.12541]
+Conversions Enabled:   298 (4.08%)
+Distance to Anchor c0: 0.0141
+Distance to Geometric: 0.0058  (0 = purely geometric, >0 = non-geometric)
+
+--- TOP 10 NEIGHBORS IN B_ε(c0) ---
+Rank | Conversions | Power (%) | Dist(c0) | Dist(geom) | Catalyst Vector
+1    | 298        | 4.08   % | 0.0141   | 0.0058     | [0.40479, 0.27635, 0.19345, 0.12541]
+2    | 297        | 4.06   % | 0.0122   | 0.0082     | [0.39979, 0.28135, 0.19345, 0.12541]
+3    | 295        | 4.04   % | 0.0071   | 0.0066     | [0.39479, 0.28135, 0.19345, 0.13041]
+4    | 295        | 4.04   % | 0.0187   | 0.0018     | [0.40979, 0.27635, 0.18845, 0.12541]
+5    | 295        | 4.04   % | 0.0235   | 0.0065     | [0.41479, 0.27135, 0.18845, 0.12541]
+6    | 294        | 4.02   % | 0.0122   | 0.0112     | [0.38979, 0.27635, 0.20345, 0.13041]
+7    | 294        | 4.02   % | 0.0071   | 0.0070     | [0.39479, 0.27635, 0.19845, 0.13041]
+8    | 294        | 4.02   % | 0.0071   | 0.0029     | [0.39979, 0.27635, 0.19345, 0.13041]
+9    | 294        | 4.02   % | 0.0122   | 0.0099     | [0.39979, 0.27635, 0.19845, 0.12541]
+10   | 294        | 4.02   % | 0.0158   | 0.0113     | [0.40479, 0.27135, 0.19845, 0.12541]
+===========================================================================

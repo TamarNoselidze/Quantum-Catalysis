@@ -1,0 +1,38 @@
+===========================================================================
+PILOT NEIGHBORHOOD ANALYSIS REPORT
+===========================================================================
+State dim: 12 | Catalyst dim: 3 | Incomparable pairs: 12697
+Anchor c0: [0.578, 0.28322, 0.13878] (r*=0.490) | Radius ε: 0.030 | Step δ: 0.0020
+Total neighbors tested: 421
+
+--- SUMMARY METRICS ---
+Anchor c0 conversions:      911 / 12697  (7.17%)
+Maximum conversions found:  924 / 12697  (7.28%)
+Minimum conversions found:  822 / 12697  (6.47%)
+Average neighborhood power: 7.07%
+
+--- LOCAL PEAK STATUS ---
+>> STATUS: NOT A PEAK. Found 143 neighbor(s) that outperformed c0 (gain: +13 conversions, +0.10%).
+Neighbors strictly worse:  261 (62.0%)
+Neighbors equal to c0:     17 (4.0%)
+Neighbors strictly better: 143 (34.0%)
+
+--- BEST NEIGHBOR DETAILS ---
+Best Catalyst Vector:  [0.572, 0.28922, 0.13878]
+Conversions Enabled:   924 (7.28%)
+Distance to Anchor c0: 0.0085
+Distance to Geometric: 0.0052  (0 = purely geometric, >0 = non-geometric)
+
+--- TOP 10 NEIGHBORS IN B_ε(c0) ---
+Rank | Conversions | Power (%) | Dist(c0) | Dist(geom) | Catalyst Vector
+1    | 924        | 7.28   % | 0.0085   | 0.0052     | [0.572, 0.28922, 0.13878]
+2    | 924        | 7.28   % | 0.0102   | 0.0080     | [0.572, 0.29122, 0.13678]
+3    | 923        | 7.27   % | 0.0130   | 0.0059     | [0.568, 0.29122, 0.14078]
+4    | 923        | 7.27   % | 0.0130   | 0.0098     | [0.57, 0.29322, 0.13678]
+5    | 922        | 7.26   % | 0.0157   | 0.0077     | [0.566, 0.29322, 0.14078]
+6    | 922        | 7.26   % | 0.0113   | 0.0070     | [0.57, 0.29122, 0.13878]
+7    | 922        | 7.26   % | 0.0075   | 0.0063     | [0.574, 0.28922, 0.13678]
+8    | 922        | 7.26   % | 0.0141   | 0.0140     | [0.578, 0.29322, 0.12878]
+9    | 922        | 7.26   % | 0.0157   | 0.0151     | [0.58, 0.29322, 0.12678]
+10   | 921        | 7.25   % | 0.0141   | 0.0087     | [0.568, 0.29322, 0.13878]
+===========================================================================

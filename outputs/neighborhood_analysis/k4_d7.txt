@@ -1,0 +1,38 @@
+===========================================================================
+PILOT NEIGHBORHOOD ANALYSIS REPORT
+===========================================================================
+State dim: 7 | Catalyst dim: 4 | Incomparable pairs: 10574
+Anchor c0: [0.44589, 0.27645, 0.1714, 0.10627] (r*=0.620) | Radius ε: 0.030 | Step δ: 0.0050
+Total neighbors tested: 445
+
+--- SUMMARY METRICS ---
+Anchor c0 conversions:      760 / 10574  (7.19%)
+Maximum conversions found:  773 / 10574  (7.31%)
+Minimum conversions found:  633 / 10574  (5.99%)
+Average neighborhood power: 6.80%
+
+--- LOCAL PEAK STATUS ---
+>> STATUS: NOT A PEAK. Found 9 neighbor(s) that outperformed c0 (gain: +13 conversions, +0.12%).
+Neighbors strictly worse:  433 (97.3%)
+Neighbors equal to c0:     3 (0.7%)
+Neighbors strictly better: 9 (2.0%)
+
+--- BEST NEIGHBOR DETAILS ---
+Best Catalyst Vector:  [0.45089, 0.28145, 0.1714, 0.09626]
+Conversions Enabled:   773 (7.31%)
+Distance to Anchor c0: 0.0123
+Distance to Geometric: 0.0091  (0 = purely geometric, >0 = non-geometric)
+
+--- TOP 10 NEIGHBORS IN B_ε(c0) ---
+Rank | Conversions | Power (%) | Dist(c0) | Dist(geom) | Catalyst Vector
+1    | 773        | 7.31   % | 0.0123   | 0.0091     | [0.45089, 0.28145, 0.1714, 0.09626]
+2    | 765        | 7.23   % | 0.0141   | 0.0065     | [0.45589, 0.27645, 0.1714, 0.09626]
+3    | 764        | 7.23   % | 0.0123   | 0.0120     | [0.44589, 0.28145, 0.1764, 0.09626]
+4    | 764        | 7.23   % | 0.0123   | 0.0103     | [0.45089, 0.27645, 0.1764, 0.09626]
+5    | 763        | 7.22   % | 0.0123   | 0.0008     | [0.45589, 0.27645, 0.1664, 0.10126]
+6    | 763        | 7.22   % | 0.0187   | 0.0029     | [0.46089, 0.27645, 0.1664, 0.09626]
+7    | 761        | 7.20   % | 0.0122   | 0.0068     | [0.43589, 0.28145, 0.1764, 0.10626]
+8    | 761        | 7.20   % | 0.0071   | 0.0068     | [0.44589, 0.28145, 0.1714, 0.10126]
+9    | 761        | 7.20   % | 0.0158   | 0.0071     | [0.45589, 0.28145, 0.1664, 0.09626]
+10   | 760        | 7.19   % | 0.0000   | 0.0000     | [0.44589, 0.27645, 0.1714, 0.10627] [ANCHOR c0]
+===========================================================================
