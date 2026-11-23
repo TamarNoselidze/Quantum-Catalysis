@@ -8,14 +8,14 @@
 using JLD2, Printf
 include("catalysis.jl")     # helpers (is_locc_convertible, tensor_product_schmidt_vector, ...)
 
-const KS         = [2, 3, 4]     # catalyst sizes ; [2, 3, 4, 5, 6, 8, 12] 
-const DS         = [4, 8, 12]                 # state dimensions to test
+const KS         = [3, 4]     # catalyst sizes ; [2, 3, 4, 5, 6, 8, 12] 
+const DS         = [20, 30, 40, 50]               # state dimensions to test
 const RS         = collect(0.05:0.01:0.95)    # ratio grid
 const N_ORIG     = 20_000                     # original pairs (per half)
 const N_NEW      = 100_000                    # new pairs (per half), same files as the validation
 const TOL        = 1e-9                       # tolerance of the majorization test (test with 1e-13)
 const FLAG_BELOW = 1e-6                       # flag catalysts with a coefficient smaller than this
-const OUT_TXT    = "./outputs/geometric_catalysts_tol$(TOL).txt"
+const OUT_TXT    = "./outputs/LARGE_geometric_catalysts_tol$(TOL).txt"
 
 # print to the terminal AND to the log file
 const LOG = Ref{IO}(devnull)

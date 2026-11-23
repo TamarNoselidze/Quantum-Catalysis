@@ -19,11 +19,13 @@ end
 
 
 if abspath(PROGRAM_FILE) == @__FILE__   # Only executes if you run this file directly, not when it's pulled in via include from another file
-    d = 7
-    n_samples = 40000
+    d = 20
+    n_samples = 200000
 
     dataset = generate_simplex_dataset(d, n_samples)
 
-    @save "dataset_40k_d$d.jld2" dataset
+    @save "datasets_validation/val_d$(d)_100000pairs.jld2" dataset
+    # @save "datasets_40k/dataset_40k_d$d.jld2" dataset
+
 end
 
